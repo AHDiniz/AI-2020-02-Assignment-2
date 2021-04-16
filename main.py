@@ -1,27 +1,24 @@
 #!/usr/bin/python3.8
 
-import sklearn as skl
+from oner import OneREstimator
+from stages import first_stage, second_stage
+from sklearn.datasets import load_iris, load_digits, load_wine, load_breast_cancer
+from sklearn.dummy import DummyClassifier
+from sklearn.neighbors import KNeighborsClassifier
+from sklearn.naive_bayes import GaussianNB
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.ensemble import RandomForestClassifier
 
-iris_dataset = skl.datasets.load_iris()
-digits_dataset = skl.datasets.load_digits()
-wine_dataset = skl.datasets.load_wine()
-breast_cancer_dataset = skl.datasets.load_breast_cancer()
+iris_dataset = load_iris()
+digits_dataset = load_digits()
+wine_dataset = load_wine()
+breast_cancer_dataset = load_breast_cancer()
 
-# Algorithms to be used: Guassian Naive Bayes, k-Nearest Neighbours, Distance k-Nearest Neighbours, Decision Tree, Decision Forest, Uniform Random, Stratified Random
-# Algorithms to be implemented: One Rule, k-Means Centroids, Genetic Algorithm Clustering (extend from BaseEstimator)
+# Estimators to be passed in the firt stage:
+zero_r = DummyClassifier(strategy = 'most_frequent')
+random = DummyClassifier(strategy = 'random')
+stratified = DummyClassifier(strategy = 'stratified')
+naive_bayes = GaussianNB()
+one_r = OneREstimator()
 
-# First stage:
-#   RepeatedStratifiedKFold (n_splits = 10, n_repeats = 3)
-#   GridSearchCV
-#   cross_val_score
-#   mean
-#   standard deviation
-#   accuracy confidence interval
 
-# Second stage:
-#   RepeatedStratifiedKFold (n_splits = , n_repeats = )
-#   GridSearchCV
-#   cross_val_score
-#   mean
-#   standard deviation
-#   accuracy confidence interval
