@@ -4,7 +4,7 @@ import random
 import numpy as np
 from sklearn.base import BaseEstimator
 
-class OneREstimator(BaseEstimator):
+class OneRClassifier(BaseEstimator):
     
     # Training the One Rule estimator:
     def fit(self, X, Y):
