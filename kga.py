@@ -3,13 +3,12 @@
 import random
 import numpy as np
 from sklearn.base import BaseEstimator
+from clustering import Clusters
 
 class GeneticClassifier(BaseEstimator):
-    def __init__(self, k):
-        self.__k = k
     
-    def fit(self, X, Y):
-        print("Fitting genetic.")
-    
-    def predict(self, X):
+    # Implementing the clustering method with a genetic algorithm:
+    def clustering(self, points):
+        
+
         return None

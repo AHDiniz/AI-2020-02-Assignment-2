@@ -2,14 +2,13 @@
 
 import random
 import numpy as np
-from sklearn.base import BaseEstimator
+from kcentroids import KCentroidsBaseEstimator
+from sklearn.kmeans import KMeans
 
-class KMeansClassifier(BaseEstimator):
-    def __init__(self, k):
-        self.__k = k
+class KMeansClassifier(KCentroidsBaseEstimator):
     
-    def fit(self, X, Y):
-        print("KMeans fitting")
-    
-    def predict(self, X):
-        return None
+    # Implementing the clustering method with a naive k-means algorithm:
+    def clustering(self, points):
+        km = KMeans(n_clusters = self.__k)
+        km.fit(data)
+        return km.cluster_centers_
