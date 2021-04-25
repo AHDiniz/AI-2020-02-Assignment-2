@@ -8,21 +8,23 @@ class OneRClassifier(BaseEstimator):
     
     # Training the One Rule estimator:
     def fit(self, X, Y):
-        dimensions = np.shape(X)
+        dimensions = np.shape(X[0])
         unique = np.unique(Y)
         self._num_classes = len(unique)
+
+        print(dimensions)
 
         # Creating the contingency table:
         contingency_tables = []
         # For each parameter:
-        for i in dimensions[1]:
+        for i in range(dimensions[0]):
         # Create list of possible values for each parameter:
-            possible_values = np.unique(X[:i])
+            possible_values = np.unique(X[:,i])
             contingency_table = dict({})
             # For each possible value:
             for possible_value in possible_values:
                 # Get indices of points where current parameter is equal to current possible value:
-                indices = np.where(X[:i] == possible_value)
+                indices = np.where(X[:,i] == possible_value)
                 # Get classes in those indices:
                 classes = np.take(Y, indices)
                 # Calculate amount of elements in each class:
@@ -35,7 +37,7 @@ class OneRClassifier(BaseEstimator):
         # For each contingency table:
         for i in range(len(contingency_tables)):
             # Get the sum of each class occurance for each parameter value:
-            sum_in_paramenter = np.sum(np.apply_along_axis(lambda x: np.amax(x), 0, contingency_tables[i]))
+            sum_in_paramenter = np.sum(np.apply_along_axis(lambda x: np.amax(x), 1, contingency_tables[i]))
             # Choosing the best parameter:
             if sum_in_paramenter > best_sum:
                 best_sum = sum_in_paramenter

@@ -5,8 +5,9 @@ from numpy.linalg import norm
 from sklearn.base import BaseEstimator    
 
 class KCentroidsBaseEstimator(BaseEstimator):
-    def __init__(self, k):
-        self.__k = k
+
+    def __init__(self, k=1):
+        self.k = k
 
     # This must be implemented in the classes that extend this one
     def clustering(self, points):
@@ -23,7 +24,7 @@ class KCentroidsBaseEstimator(BaseEstimator):
 
         # Applying the clustering algorithm for each points list and saving the centroids list:
         self.__centroids = dict({})
-        for c, points in points_by_classes:
+        for c, points in points_by_classes.items():
             self.__centroids[c] = self.clustering(points)
 
     def predict(self, X):

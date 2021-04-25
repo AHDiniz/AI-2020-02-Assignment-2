@@ -1,0 +1,432 @@
+Zero-R Iris
+Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
+Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
+Zero-R Wine
+Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
+Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
+Zero-R Breast Cancer
+Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
+Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
+Zero-R Digits
+Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
+Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
+Random Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Stratified Iris
+Accuracy Mean: 0.2977777777777778 Accuracy Standard Deviation: 0.11252434578819702
+Accuracy Trust Interval (95%%): ( 0.2575121976758085 , 0.3380433578797471 )
+Stratified Wine
+Accuracy Mean: 0.3580610021786493 Accuracy Standard Deviation: 0.08145358824937252
+Accuracy Trust Interval (95%%): ( 0.3289137455625441 , 0.38720825879475446 )
+Stratified Breast Cancer
+Accuracy Mean: 0.56234335839599 Accuracy Standard Deviation: 0.05463956136111389
+Accuracy Trust Interval (95%%): ( 0.5427912017554742 , 0.5818955150365058 )
+Stratified Digits
+Accuracy Mean: 0.09646803227808814 Accuracy Standard Deviation: 0.023449884109652902
+Accuracy Trust Interval (95%%): ( 0.08807675321412074 , 0.10485931134205555 )
+Naive Bayes Iris
+Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.05206833117271102
+Accuracy Trust Interval (95%%): ( 0.9347012626918654 , 0.9719654039748014 )
+Naive Bayes Wine
+Accuracy Mean: 0.9700435729847494 Accuracy Standard Deviation: 0.04042333805502492
+Accuracy Trust Interval (95%%): ( 0.9555785330412395 , 0.9845086129282593 )
+Naive Bayes Breast Cancer
+Accuracy Mean: 0.9344402673350043 Accuracy Standard Deviation: 0.02892888800474948
+Accuracy Trust Interval (95%%): ( 0.9240883879345348 , 0.9447921467354737 )
+Naive Bayes Digits
+Accuracy Mean: 0.784827229464101 Accuracy Standard Deviation: 0.034607354424669834
+Accuracy Trust Interval (95%%): ( 0.7724433742908683 , 0.7972110846373337 )
+One-R Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Uniform k-Neighbors Iris
+Accuracy Mean: 0.9555555555555556 Accuracy Standard Deviation: 0.05794846582402352
+Accuracy Trust Interval (95%%): ( 0.9348193444176083 , 0.9762917666935029 )
+Uniform k-Neighbors Wine
+Accuracy Mean: 0.9679738562091503 Accuracy Standard Deviation: 0.04041731982677206
+Accuracy Trust Interval (95%%): ( 0.9535109698213895 , 0.9824367425969112 )
+Uniform k-Neighbors Breast Cancer
+Accuracy Mean: 0.9677944862155388 Accuracy Standard Deviation: 0.023124375621511373
+Accuracy Trust Interval (95%%): ( 0.9595196867277139 , 0.9760692857033636 )
+Uniform k-Neighbors Digits
+Accuracy Mean: 0.976075936271467 Accuracy Standard Deviation: 0.012022903318907643
+Accuracy Trust Interval (95%%): ( 0.9717736746297336 , 0.9803781979132005 )
+Distance k-Neighbors Iris
+Accuracy Mean: 0.9466666666666667 Accuracy Standard Deviation: 0.046825127790456604
+Accuracy Trust Interval (95%%): ( 0.9299108177823682 , 0.9634225155509651 )
+Distance k-Neighbors Wine
+Accuracy Mean: 0.9567538126361654 Accuracy Standard Deviation: 0.04307187338487916
+Accuracy Trust Interval (95%%): ( 0.9413410239123349 , 0.972166601359996 )
+Distance k-Neighbors Breast Cancer
+Accuracy Mean: 0.9624686716791978 Accuracy Standard Deviation: 0.02124688472138041
+Accuracy Trust Interval (95%%): ( 0.9548657113360524 , 0.9700716320223433 )
+Distance k-Neighbors Digits
+Accuracy Mean: 0.9773691289054417 Accuracy Standard Deviation: 0.012605870288927042
+Accuracy Trust Interval (95%%): ( 0.9728582590459605 , 0.9818799987649229 )
+Decision Tree Iris
+Accuracy Mean: 0.9444444444444444 Accuracy Standard Deviation: 0.05187830013301667
+Accuracy Trust Interval (95%%): ( 0.9258803742876456 , 0.9630085146012433 )
+Decision Tree Wine
+Accuracy Mean: 0.9088235294117646 Accuracy Standard Deviation: 0.07652619805470572
+Accuracy Trust Interval (95%%): ( 0.8814394843316808 , 0.9362075744918483 )
+Decision Tree Breast Cancer
+Accuracy Mean: 0.928529657477026 Accuracy Standard Deviation: 0.0348147475462034
+Accuracy Trust Interval (95%%): ( 0.9160715889920943 , 0.9409877259619577 )
+Decision Tree Digits
+Accuracy Mean: 0.8532867783985104 Accuracy Standard Deviation: 0.024947394441911
+Accuracy Trust Interval (95%%): ( 0.8443596319912166 , 0.8622139248058043 )
+Decision Forest Iris
+Accuracy Mean: 0.9400000000000001 Accuracy Standard Deviation: 0.05263430792145337
+Accuracy Trust Interval (95%%): ( 0.9211654009016661 , 0.958834599098334 )
+Decision Forest Wine
+Accuracy Mean: 0.9795206971677559 Accuracy Standard Deviation: 0.03663371321929057
+Accuracy Trust Interval (95%%): ( 0.9664117321368422 , 0.9926296621986697 )
+Decision Forest Breast Cancer
+Accuracy Mean: 0.9572159565580617 Accuracy Standard Deviation: 0.025145238233011638
+Accuracy Trust Interval (95%%): ( 0.9482180139602863 , 0.9662138991558371 )
+Decision Forest Digits
+Accuracy Mean: 0.9773691289054419 Accuracy Standard Deviation: 0.010650492347525296
+Accuracy Trust Interval (95%%): ( 0.9735579691982625 , 0.9811802886126213 )
+Zero-R Iris
+Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
+Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
+Zero-R Wine
+Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
+Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
+Zero-R Breast Cancer
+Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
+Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
+Zero-R Digits
+Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
+Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
+Random Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Stratified Iris
+Accuracy Mean: 0.32666666666666677 Accuracy Standard Deviation: 0.09790395898626973
+Accuracy Trust Interval (95%%): ( 0.29163282865367507 , 0.3617005046796585 )
+Stratified Wine
+Accuracy Mean: 0.30261437908496736 Accuracy Standard Deviation: 0.11839089469718435
+Accuracy Trust Interval (95%%): ( 0.26024951999264 , 0.3449792381772947 )
+Stratified Breast Cancer
+Accuracy Mean: 0.5359753550543024 Accuracy Standard Deviation: 0.054175238444571165
+Accuracy Trust Interval (95%%): ( 0.5165893511824009 , 0.5553613589262039 )
+Stratified Digits
+Accuracy Mean: 0.10292882267742604 Accuracy Standard Deviation: 0.020662791257964046
+Accuracy Trust Interval (95%%): ( 0.09553487365510617 , 0.1103227716997459 )
+Naive Bayes Iris
+Accuracy Mean: 0.9511111111111111 Accuracy Standard Deviation: 0.06425258797689315
+Accuracy Trust Interval (95%%): ( 0.9281190402857254 , 0.9741031819364968 )
+Naive Bayes Wine
+Accuracy Mean: 0.971677559912854 Accuracy Standard Deviation: 0.03867025682751937
+Accuracy Trust Interval (95%%): ( 0.9578398405024867 , 0.9855152793232212 )
+Naive Bayes Breast Cancer
+Accuracy Mean: 0.9338450292397661 Accuracy Standard Deviation: 0.03346866581162138
+Accuracy Trust Interval (95%%): ( 0.9218686410661302 , 0.945821417413402 )
+Naive Bayes Digits
+Accuracy Mean: 0.7811193875439686 Accuracy Standard Deviation: 0.027764766320278297
+Accuracy Trust Interval (95%%): ( 0.7711840760835851 , 0.7910546990043521 )
+One-R Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Uniform k-Neighbors Iris
+Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.04914076530554661
+Accuracy Trust Interval (95%%): ( 0.9357488594328407 , 0.970917807233826 )
+Uniform k-Neighbors Wine
+Accuracy Mean: 0.9590413943355117 Accuracy Standard Deviation: 0.049623967496505335
+Accuracy Trust Interval (95%%): ( 0.9412840119289602 , 0.9767987767420633 )
+Uniform k-Neighbors Breast Cancer
+Accuracy Mean: 0.9631056808688386 Accuracy Standard Deviation: 0.024544919084898798
+Accuracy Trust Interval (95%%): ( 0.9543225557718962 , 0.9718888059657811 )
+Uniform k-Neighbors Digits
+Accuracy Mean: 0.9758835092075315 Accuracy Standard Deviation: 0.011158304122628615
+Accuracy Trust Interval (95%%): ( 0.9718906347295271 , 0.979876383685536 )
+Distance k-Neighbors Iris
+Accuracy Mean: 0.9555555555555557 Accuracy Standard Deviation: 0.046613726585340055
+Accuracy Trust Interval (95%%): ( 0.9388753542308911 , 0.9722357568802203 )
+Distance k-Neighbors Wine
+Accuracy Mean: 0.9643790849673202 Accuracy Standard Deviation: 0.0490584450362643
+Accuracy Trust Interval (95%%): ( 0.9468240684555693 , 0.981934101479071 )
+Distance k-Neighbors Breast Cancer
+Accuracy Mean: 0.9683270676691728 Accuracy Standard Deviation: 0.022054537080277613
+Accuracy Trust Interval (95%%): ( 0.9604350979518876 , 0.9762190373864579 )
+Distance k-Neighbors Digits
+Accuracy Mean: 0.977174632733292 Accuracy Standard Deviation: 0.010315818103371887
+Accuracy Trust Interval (95%%): ( 0.973483232465651 , 0.9808660330009329 )
+Decision Tree Iris
+Accuracy Mean: 0.948888888888889 Accuracy Standard Deviation: 0.04449996532111285
+Accuracy Trust Interval (95%%): ( 0.9329650734192587 , 0.9648127043585193 )
+Decision Tree Wine
+Accuracy Mean: 0.9010893246187363 Accuracy Standard Deviation: 0.07134835100450021
+Accuracy Trust Interval (95%%): ( 0.8755581142625106 , 0.9266205349749619 )
+Decision Tree Breast Cancer
+Accuracy Mean: 0.9261278195488721 Accuracy Standard Deviation: 0.037926716083883386
+Accuracy Trust Interval (95%%): ( 0.9125561678873306 , 0.9396994712104136 )
+Decision Tree Digits
+Accuracy Mean: 0.848820608317815 Accuracy Standard Deviation: 0.023151791225819465
+Accuracy Trust Interval (95%%): ( 0.8405359984622554 , 0.8571052181733747 )
+Decision Forest Iris
+Accuracy Mean: 0.9466666666666668 Accuracy Standard Deviation: 0.052774853720168505
+Accuracy Trust Interval (95%%): ( 0.9277817748243358 , 0.9655515585089978 )
+Decision Forest Wine
+Accuracy Mean: 0.9774509803921568 Accuracy Standard Deviation: 0.034640009039638715
+Accuracy Trust Interval (95%%): ( 0.9650554401297506 , 0.989846520654563 )
+Decision Forest Breast Cancer
+Accuracy Mean: 0.9613199665831244 Accuracy Standard Deviation: 0.027785793216700227
+Accuracy Trust Interval (95%%): ( 0.9513771308827531 , 0.9712628022834956 )
+Decision Forest Digits
+Accuracy Mean: 0.9758845437616388 Accuracy Standard Deviation: 0.011452379389545724
+Accuracy Trust Interval (95%%): ( 0.9717864377345583 , 0.9799826497887193 )
+Zero-R Iris
+Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
+Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
+Zero-R Wine
+Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
+Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
+Zero-R Breast Cancer
+Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
+Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
+Zero-R Digits
+Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
+Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
+Random Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Stratified Iris
+Accuracy Mean: 0.32222222222222224 Accuracy Standard Deviation: 0.15970652096738625
+Accuracy Trust Interval (95%%): ( 0.2650730278165645 , 0.37937141662788 )
+Stratified Wine
+Accuracy Mean: 0.3277777777777778 Accuracy Standard Deviation: 0.11094807338684337
+Accuracy Trust Interval (95%%): ( 0.28807624914568947 , 0.3674793064098661 )
+Stratified Breast Cancer
+Accuracy Mean: 0.5026942355889725 Accuracy Standard Deviation: 0.05589740367050897
+Accuracy Trust Interval (95%%): ( 0.4826919741297188 , 0.5226964970482263 )
+Stratified Digits
+Accuracy Mean: 0.09682288433685082 Accuracy Standard Deviation: 0.02348507390334601
+Accuracy Trust Interval (95%%): ( 0.08841901299832455 , 0.10522675567537709 )
+Naive Bayes Iris
+Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.04914076530554661
+Accuracy Trust Interval (95%%): ( 0.9357488594328407 , 0.970917807233826 )
+Naive Bayes Wine
+Accuracy Mean: 0.971677559912854 Accuracy Standard Deviation: 0.03802039428855166
+Accuracy Trust Interval (95%%): ( 0.9580723865522752 , 0.9852827332734327 )
+Naive Bayes Breast Cancer
+Accuracy Mean: 0.9296365914786967 Accuracy Standard Deviation: 0.035579705101422304
+Accuracy Trust Interval (95%%): ( 0.9169047914781671 , 0.9423683914792264 )
+Naive Bayes Digits
+Accuracy Mean: 0.7868332298779226 Accuracy Standard Deviation: 0.028066853486322884
+Accuracy Trust Interval (95%%): ( 0.7767898198998633 , 0.7968766398559819 )
+One-R Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Uniform k-Neighbors Iris
+Accuracy Mean: 0.9555555555555557 Accuracy Standard Deviation: 0.04331908597692872
+Accuracy Trust Interval (95%%): ( 0.9400543045673355 , 0.9710568065437759 )
+Uniform k-Neighbors Wine
+Accuracy Mean: 0.9584967320261437 Accuracy Standard Deviation: 0.043731872618918866
+Accuracy Trust Interval (95%%): ( 0.9428477699494329 , 0.9741456941028546 )
+Uniform k-Neighbors Breast Cancer
+Accuracy Mean: 0.9677736006683374 Accuracy Standard Deviation: 0.019292367833343753
+Accuracy Trust Interval (95%%): ( 0.9608700423591662 , 0.9746771589775086 )
+Uniform k-Neighbors Digits
+Accuracy Mean: 0.9768197806745295 Accuracy Standard Deviation: 0.010738099722165545
+Accuracy Trust Interval (95%%): ( 0.9729772716470195 , 0.9806622897020394 )
+Distance k-Neighbors Iris
+Accuracy Mean: 0.9555555555555556 Accuracy Standard Deviation: 0.06045098003882417
+Accuracy Trust Interval (95%%): ( 0.9339238476620703 , 0.9771872634490409 )
+Distance k-Neighbors Wine
+Accuracy Mean: 0.9604575163398692 Accuracy Standard Deviation: 0.054861420347031016
+Accuracy Trust Interval (95%%): ( 0.9408259699396866 , 0.9800890627400518 )
+Distance k-Neighbors Breast Cancer
+Accuracy Mean: 0.9683792815371763 Accuracy Standard Deviation: 0.02770799835947497
+Accuracy Trust Interval (95%%): ( 0.9584642838573969 , 0.9782942792169558 )
+Distance k-Neighbors Digits
+Accuracy Mean: 0.9760666252845025 Accuracy Standard Deviation: 0.009873330632892429
+Accuracy Trust Interval (95%%): ( 0.9725335642150317 , 0.9795996863539733 )
+Decision Tree Iris
+Accuracy Mean: 0.9466666666666668 Accuracy Standard Deviation: 0.05551109331909685
+Accuracy Trust Interval (95%%): ( 0.9268026420510939 , 0.9665306912822397 )
+Decision Tree Wine
+Accuracy Mean: 0.8968409586056645 Accuracy Standard Deviation: 0.08995216353668271
+Accuracy Trust Interval (95%%): ( 0.8646525817627604 , 0.9290293354485686 )
+Decision Tree Breast Cancer
+Accuracy Mean: 0.9226921470342524 Accuracy Standard Deviation: 0.030558490883219724
+Accuracy Trust Interval (95%%): ( 0.9117571324484343 , 0.9336271616200705 )
+Decision Tree Digits
+Accuracy Mean: 0.8566139044072004 Accuracy Standard Deviation: 0.020634827339701334
+Accuracy Trust Interval (95%%): ( 0.8492299619606387 , 0.8639978468537621 )
+Decision Forest Iris
+Accuracy Mean: 0.9444444444444444 Accuracy Standard Deviation: 0.0598351645237167
+Accuracy Trust Interval (95%%): ( 0.9230330992536071 , 0.9658557896352817 )
+Decision Forest Wine
+Accuracy Mean: 0.9793028322440087 Accuracy Standard Deviation: 0.034309402501140805
+Accuracy Trust Interval (95%%): ( 0.9670255958381135 , 0.9915800686499039 )
+Decision Forest Breast Cancer
+Accuracy Mean: 0.9613512949039262 Accuracy Standard Deviation: 0.029146619223247048
+Accuracy Trust Interval (95%%): ( 0.9509215028192487 , 0.9717810869886038 )
+Decision Forest Digits
+Accuracy Mean: 0.9755152079453756 Accuracy Standard Deviation: 0.011744493211586582
+Accuracy Trust Interval (95%%): ( 0.9713125722503563 , 0.9797178436403949 )
+Zero-R Iris
+Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
+Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
+Zero-R Wine
+Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
+Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
+Zero-R Breast Cancer
+Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
+Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
+Zero-R Digits
+Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
+Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
+Random Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Random Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Stratified Iris
+Accuracy Mean: 0.2977777777777778 Accuracy Standard Deviation: 0.12499876542600208
+Accuracy Trust Interval (95%%): ( 0.2530483659633623 , 0.34250718959219334 )
+Stratified Wine
+Accuracy Mean: 0.33671023965141605 Accuracy Standard Deviation: 0.10587590869511405
+Accuracy Trust Interval (95%%): ( 0.29882372849180994 , 0.37459675081102217 )
+Stratified Breast Cancer
+Accuracy Mean: 0.5277986633249792 Accuracy Standard Deviation: 0.08048484559900837
+Accuracy Trust Interval (95%%): ( 0.49899806044423406 , 0.5565992662057242 )
+Stratified Digits
+Accuracy Mean: 0.10108731636664597 Accuracy Standard Deviation: 0.023854008390792738
+Accuracy Trust Interval (95%%): ( 0.09255142594324872 , 0.10962320679004323 )
+Naive Bayes Iris
+Accuracy Mean: 0.9511111111111111 Accuracy Standard Deviation: 0.051448164012401
+Accuracy Trust Interval (95%%): ( 0.9327009603599136 , 0.9695212618623087 )
+Naive Bayes Wine
+Accuracy Mean: 0.9777777777777777 Accuracy Standard Deviation: 0.0420659877466687
+Accuracy Trust Interval (95%%): ( 0.9627249339925743 , 0.9928306215629812 )
+Naive Bayes Breast Cancer
+Accuracy Mean: 0.9326127819548872 Accuracy Standard Deviation: 0.03938061308405343
+Accuracy Trust Interval (95%%): ( 0.9185208694936913 , 0.9467046944160831 )
+Naive Bayes Digits
+Accuracy Mean: 0.7818684047175668 Accuracy Standard Deviation: 0.03241622921107894
+Accuracy Trust Interval (95%%): ( 0.7702686192243957 , 0.7934681902107379 )
+One-R Iris
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Wine
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Breast Cancer
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+One-R Digits
+Accuracy Mean: nan Accuracy Standard Deviation: nan
+Accuracy Trust Interval (95%%): ( nan , nan )
+Uniform k-Neighbors Iris
+Accuracy Mean: 0.9600000000000002 Accuracy Standard Deviation: 0.05333333333333333
+Accuracy Trust Interval (95%%): ( 0.9409152624670172 , 0.9790847375329832 )
+Uniform k-Neighbors Wine
+Accuracy Mean: 0.9644880174291938 Accuracy Standard Deviation: 0.03671912772293409
+Accuracy Trust Interval (95%%): ( 0.9513484877723386 , 0.9776275470860489 )
+Uniform k-Neighbors Breast Cancer
+Accuracy Mean: 0.9672201336675018 Accuracy Standard Deviation: 0.027450532248606642
+Accuracy Trust Interval (95%%): ( 0.9573972673592767 , 0.977042999975727 )
+Uniform k-Neighbors Digits
+Accuracy Mean: 0.9766294227188081 Accuracy Standard Deviation: 0.012130820781951735
+Accuracy Trust Interval (95%%): ( 0.9722885440184981 , 0.9809703014191182 )
+Distance k-Neighbors Iris
+Accuracy Mean: 0.9555555555555556 Accuracy Standard Deviation: 0.046613726585340055
+Accuracy Trust Interval (95%%): ( 0.938875354230891 , 0.9722357568802202 )
+Distance k-Neighbors Wine
+Accuracy Mean: 0.9644880174291938 Accuracy Standard Deviation: 0.03671912772293409
+Accuracy Trust Interval (95%%): ( 0.9513484877723386 , 0.9776275470860489 )
+Distance k-Neighbors Breast Cancer
+Accuracy Mean: 0.9648391812865497 Accuracy Standard Deviation: 0.029723261564919157
+Accuracy Trust Interval (95%%): ( 0.9542030441817243 , 0.975475318391375 )
+Distance k-Neighbors Digits
+Accuracy Mean: 0.9783022967101178 Accuracy Standard Deviation: 0.012708460336556296
+Accuracy Trust Interval (95%%): ( 0.9737547161481521 , 0.9828498772720835 )
+Decision Tree Iris
+Accuracy Mean: 0.9444444444444445 Accuracy Standard Deviation: 0.045812284729085107
+Accuracy Trust Interval (95%%): ( 0.9280510301349282 , 0.9608378587539609 )
+Decision Tree Wine
+Accuracy Mean: 0.9022875816993462 Accuracy Standard Deviation: 0.05843706259184803
+Accuracy Trust Interval (95%%): ( 0.8813765316662727 , 0.9231986317324197 )
+Decision Tree Breast Cancer
+Accuracy Mean: 0.926764828738513 Accuracy Standard Deviation: 0.03112545883478822
+Accuracy Trust Interval (95%%): ( 0.9156269310049705 , 0.9379027264720554 )
+Decision Tree Digits
+Accuracy Mean: 0.8558545416925304 Accuracy Standard Deviation: 0.02965664628485606
+Accuracy Trust Interval (95%%): ( 0.8452422421214992 , 0.8664668412635615 )
+Decision Forest Iris
+Accuracy Mean: 0.9444444444444444 Accuracy Standard Deviation: 0.05187830013301667
+Accuracy Trust Interval (95%%): ( 0.9258803742876456 , 0.9630085146012433 )
+Decision Forest Wine
+Accuracy Mean: 0.9812636165577342 Accuracy Standard Deviation: 0.026507993332035094
+Accuracy Trust Interval (95%%): ( 0.9717780272714601 , 0.9907492058440083 )
+Decision Forest Breast Cancer
+Accuracy Mean: 0.9566311612364242 Accuracy Standard Deviation: 0.023130922678464606
+Accuracy Trust Interval (95%%): ( 0.9483540189574076 , 0.9649083035154409 )
+Decision Forest Digits
+Accuracy Mean: 0.9779267535692118 Accuracy Standard Deviation: 0.01171298310884629
+Accuracy Trust Interval (95%%): ( 0.9737353934124506 , 0.9821181137259729 )

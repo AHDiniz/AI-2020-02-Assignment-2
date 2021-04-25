@@ -20,7 +20,7 @@ def first_stage(dataset, estimator, use_discretizer = False):
 
     if use_discretizer:
         discretizer = KBinsDiscretizer(2 * len(unique(dataset['target'])), encode = 'ordinal', strategy = 'kmeans')
-        pipeline = Pipeline([('transformer', scaler), ('estimator', estimator)], ('discretizer', discretizer))
+        pipeline = Pipeline([('transformer', scaler), ('discretizer', discretizer), ('estimator', estimator)])
     else:
         pipeline = Pipeline([('transformer', scaler), ('estimator', estimator)])
 
