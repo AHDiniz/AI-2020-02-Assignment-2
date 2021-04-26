@@ -54,6 +54,7 @@ for estimator_name, estimator in first_estimators.items():
         print(estimator_name, dataset_name)
         print('Accuracy Mean:', mean, 'Accuracy Standard Deviation:', deviation)
         print('Accuracy Trust Interval (95%%): (', inf, ',', sup, ')')
+    print()
 
 # Estimators to be passed in the second stage and their hyperparameters grid:
 knn = (KNeighborsClassifier(weights = 'uniform'), {'estimator__n_neighbors': [1, 3, 5, 7]})
@@ -78,6 +79,7 @@ for estimator_name, estimator_data in second_estimators.items():
         print(estimator_name, dataset_name)
         print('Accuracy Mean:', mean, 'Accuracy Standard Deviation:', deviation)
         print('Accuracy Trust Interval (95%%): (', inf, ',', sup, ')')
+    print()
 
 for dataset_name, dataset in scores.items():
     # Plotting the boxplot
