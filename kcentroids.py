@@ -20,7 +20,7 @@ class KCentroidsBaseEstimator(BaseEstimator):
         points_by_classes = dict({})
         for c in self.__classes:
             indices = np.where(Y == c)
-            points_by_classes[c] = np.take(X, indices)
+            points_by_classes[c] = np.take(X, indices[0], axis=0)
 
         # Applying the clustering algorithm for each points list and saving the centroids list:
         self.__centroids = dict({})

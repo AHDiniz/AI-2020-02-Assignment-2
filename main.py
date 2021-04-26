@@ -33,7 +33,7 @@ stratified = DummyClassifier(strategy = 'stratified')
 naive_bayes = GaussianNB()
 one_r = OneRClassifier()
 
-first_estimators = {'0R': zero_r, 'RND': rnd, 'STR': stratified, 'NBA': naive_bayes}
+first_estimators = {'0R': zero_r, 'RND': rnd, 'STR': stratified, 'NBA': naive_bayes, '1R': one_r}
 
 # Scores dictionary:
 scores = {'Iris': dict({}), 'Wine': dict({}), 'Breast Cancer': dict({}), 'Digits': dict({})}
@@ -63,7 +63,8 @@ forest = (RandomForestClassifier(), {'estimator__n_estimators': [10, 20, 50, 100
 kmeans = (KMeansClassifier(), {'estimator__k': [1, 3, 5, 7]})
 genetic = (GeneticClassifier(), {'estimator__k': [1, 3, 5, 7]})
 
-second_estimators = {'UKN': knn, 'DKN': dist_knn, 'DTR': decision}
+#second_estimators = {'UKN': knn, 'DKN': dist_knn, 'DTR': decision, 'DFR': forest}
+second_estimators = {'UKN': knn, 'DKN': dist_knn, 'DTR': decision, 'DFR': forest, 'KMC': kmeans, 'GAC': genetic}
 
 for estimator_name, estimator_data in second_estimators.items():
     estimator = estimator_data[0]
