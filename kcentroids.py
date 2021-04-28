@@ -34,5 +34,5 @@ class KCentroidsBaseEstimator(BaseEstimator):
             distances = dict({})
             for c in self.__classes:
                 distances[c] = min([norm(point - centroid) for centroid in self.__centroids[c]])
-            Y.append(min(distances))
+            Y.append(min(distances, key=distances.get))
         return Y

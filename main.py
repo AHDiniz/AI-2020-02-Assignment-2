@@ -23,6 +23,8 @@ from seaborn import boxplot
 
 from matplotlib.pyplot import savefig, close
 
+from scipy.stats import ttest_rel, wilcoxon
+
 # Storing the datasets:
 datasets = {'Iris': load_iris(), 'Wine': load_wine(), 'Breast Cancer': load_breast_cancer(), 'Digits': load_digits()}
 
@@ -87,3 +89,16 @@ for dataset_name, dataset in scores.items():
     boxplot(data = dataframe)
     savefig(dataset_name + '.png')
     close()
+
+    print()
+    print("Paired test in the", dataset_name, "dataset:")
+    print()
+
+    # Printing the paired tests data:
+    for a_name, a_score in scores[dataset_name].items():
+        used = list([])
+        for b_name, b_score in scores[dataset_name].items():
+            if not a_name == b_name and not b_name in used:
+                print("T-Paired test with", a_name, "/", b_name, "=", ttest_rel(a_score, b_score))
+                print("Wilcoxon test with", a_name, "/", b_name, "=", wilcoxon(a_score, b_score))
+                used.append(b_name)

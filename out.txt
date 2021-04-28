@@ -1,432 +1,1035 @@
-Zero-R Iris
+0R Iris
 Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
 Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
-Zero-R Wine
+0R Wine
 Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
 Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
-Zero-R Breast Cancer
+0R Breast Cancer
 Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
 Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
-Zero-R Digits
+0R Digits
 Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
 Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
-Random Iris
+
+RND Iris
+Accuracy Mean: 0.35777777777777786 Accuracy Standard Deviation: 0.10952196915868097
+Accuracy Trust Interval (95%%): ( 0.31858656461236123 , 0.3969689909431945 )
+RND Wine
+Accuracy Mean: 0.34836601307189546 Accuracy Standard Deviation: 0.09596795331846396
+Accuracy Trust Interval (95%%): ( 0.314024953059512 , 0.3827070730842789 )
+RND Breast Cancer
+Accuracy Mean: 0.5090643274853801 Accuracy Standard Deviation: 0.06815509291580038
+Accuracy Trust Interval (95%%): ( 0.4846757888634904 , 0.5334528661072698 )
+RND Digits
+Accuracy Mean: 0.08810469687564661 Accuracy Standard Deviation: 0.02065835182837958
+Accuracy Trust Interval (95%%): ( 0.08071233645360953 , 0.09549705729768368 )
+
+STR Iris
+Accuracy Mean: 0.3177777777777778 Accuracy Standard Deviation: 0.11376822876595737
+Accuracy Trust Interval (95%%): ( 0.2770670880479529 , 0.35848846750760277 )
+STR Wine
+Accuracy Mean: 0.36557734204793035 Accuracy Standard Deviation: 0.09934043287479498
+Accuracy Trust Interval (95%%): ( 0.3300294779011482 , 0.4011252061947125 )
+STR Breast Cancer
+Accuracy Mean: 0.5266290726817043 Accuracy Standard Deviation: 0.06029677733151266
+Accuracy Trust Interval (95%%): ( 0.5050525445043924 , 0.5482056008590163 )
+STR Digits
+Accuracy Mean: 0.09980136561142151 Accuracy Standard Deviation: 0.0237924097668029
+Accuracy Trust Interval (95%%): ( 0.09128751756748499 , 0.10831521365535804 )
+
+NBA Iris
+Accuracy Mean: 0.9488888888888888 Accuracy Standard Deviation: 0.05883645464388323
+Accuracy Trust Interval (95%%): ( 0.9278349208717056 , 0.969942856906072 )
+NBA Wine
+Accuracy Mean: 0.9757080610021786 Accuracy Standard Deviation: 0.040252129237296236
+Accuracy Trust Interval (95%%): ( 0.9613042862214752 , 0.9901118357828819 )
+NBA Breast Cancer
+Accuracy Mean: 0.9326336675020882 Accuracy Standard Deviation: 0.028673485098931414
+Accuracy Trust Interval (95%%): ( 0.9223731811782944 , 0.942894153825882 )
+NBA Digits
+Accuracy Mean: 0.7842954686530105 Accuracy Standard Deviation: 0.02676266142128019
+Accuracy Trust Interval (95%%): ( 0.7747187492359625 , 0.7938721880700584 )
+
+1R Iris
+Accuracy Mean: 0.9066666666666667 Accuracy Standard Deviation: 0.08537498983243798
+Accuracy Trust Interval (95%%): ( 0.8761161803010448 , 0.9372171530322887 )
+1R Wine
+Accuracy Mean: 0.5229847494553377 Accuracy Standard Deviation: 0.09115043760963189
+Accuracy Trust Interval (95%%): ( 0.4903675836216558 , 0.5556019152890196 )
+1R Breast Cancer
+Accuracy Mean: 0.606296992481203 Accuracy Standard Deviation: 0.07586143448556348
+Accuracy Trust Interval (95%%): ( 0.5791508256180924 , 0.6334431593443135 )
+1R Digits
 Accuracy Mean: nan Accuracy Standard Deviation: nan
 Accuracy Trust Interval (95%%): ( nan , nan )
-Random Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Stratified Iris
-Accuracy Mean: 0.2977777777777778 Accuracy Standard Deviation: 0.11252434578819702
-Accuracy Trust Interval (95%%): ( 0.2575121976758085 , 0.3380433578797471 )
-Stratified Wine
-Accuracy Mean: 0.3580610021786493 Accuracy Standard Deviation: 0.08145358824937252
-Accuracy Trust Interval (95%%): ( 0.3289137455625441 , 0.38720825879475446 )
-Stratified Breast Cancer
-Accuracy Mean: 0.56234335839599 Accuracy Standard Deviation: 0.05463956136111389
-Accuracy Trust Interval (95%%): ( 0.5427912017554742 , 0.5818955150365058 )
-Stratified Digits
-Accuracy Mean: 0.09646803227808814 Accuracy Standard Deviation: 0.023449884109652902
-Accuracy Trust Interval (95%%): ( 0.08807675321412074 , 0.10485931134205555 )
-Naive Bayes Iris
-Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.05206833117271102
-Accuracy Trust Interval (95%%): ( 0.9347012626918654 , 0.9719654039748014 )
-Naive Bayes Wine
-Accuracy Mean: 0.9700435729847494 Accuracy Standard Deviation: 0.04042333805502492
-Accuracy Trust Interval (95%%): ( 0.9555785330412395 , 0.9845086129282593 )
-Naive Bayes Breast Cancer
-Accuracy Mean: 0.9344402673350043 Accuracy Standard Deviation: 0.02892888800474948
-Accuracy Trust Interval (95%%): ( 0.9240883879345348 , 0.9447921467354737 )
-Naive Bayes Digits
-Accuracy Mean: 0.784827229464101 Accuracy Standard Deviation: 0.034607354424669834
-Accuracy Trust Interval (95%%): ( 0.7724433742908683 , 0.7972110846373337 )
-One-R Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Uniform k-Neighbors Iris
-Accuracy Mean: 0.9555555555555556 Accuracy Standard Deviation: 0.05794846582402352
-Accuracy Trust Interval (95%%): ( 0.9348193444176083 , 0.9762917666935029 )
-Uniform k-Neighbors Wine
-Accuracy Mean: 0.9679738562091503 Accuracy Standard Deviation: 0.04041731982677206
-Accuracy Trust Interval (95%%): ( 0.9535109698213895 , 0.9824367425969112 )
-Uniform k-Neighbors Breast Cancer
-Accuracy Mean: 0.9677944862155388 Accuracy Standard Deviation: 0.023124375621511373
-Accuracy Trust Interval (95%%): ( 0.9595196867277139 , 0.9760692857033636 )
-Uniform k-Neighbors Digits
-Accuracy Mean: 0.976075936271467 Accuracy Standard Deviation: 0.012022903318907643
-Accuracy Trust Interval (95%%): ( 0.9717736746297336 , 0.9803781979132005 )
-Distance k-Neighbors Iris
-Accuracy Mean: 0.9466666666666667 Accuracy Standard Deviation: 0.046825127790456604
-Accuracy Trust Interval (95%%): ( 0.9299108177823682 , 0.9634225155509651 )
-Distance k-Neighbors Wine
-Accuracy Mean: 0.9567538126361654 Accuracy Standard Deviation: 0.04307187338487916
-Accuracy Trust Interval (95%%): ( 0.9413410239123349 , 0.972166601359996 )
-Distance k-Neighbors Breast Cancer
-Accuracy Mean: 0.9624686716791978 Accuracy Standard Deviation: 0.02124688472138041
-Accuracy Trust Interval (95%%): ( 0.9548657113360524 , 0.9700716320223433 )
-Distance k-Neighbors Digits
-Accuracy Mean: 0.9773691289054417 Accuracy Standard Deviation: 0.012605870288927042
-Accuracy Trust Interval (95%%): ( 0.9728582590459605 , 0.9818799987649229 )
-Decision Tree Iris
-Accuracy Mean: 0.9444444444444444 Accuracy Standard Deviation: 0.05187830013301667
-Accuracy Trust Interval (95%%): ( 0.9258803742876456 , 0.9630085146012433 )
-Decision Tree Wine
-Accuracy Mean: 0.9088235294117646 Accuracy Standard Deviation: 0.07652619805470572
-Accuracy Trust Interval (95%%): ( 0.8814394843316808 , 0.9362075744918483 )
-Decision Tree Breast Cancer
-Accuracy Mean: 0.928529657477026 Accuracy Standard Deviation: 0.0348147475462034
-Accuracy Trust Interval (95%%): ( 0.9160715889920943 , 0.9409877259619577 )
-Decision Tree Digits
-Accuracy Mean: 0.8532867783985104 Accuracy Standard Deviation: 0.024947394441911
-Accuracy Trust Interval (95%%): ( 0.8443596319912166 , 0.8622139248058043 )
-Decision Forest Iris
-Accuracy Mean: 0.9400000000000001 Accuracy Standard Deviation: 0.05263430792145337
-Accuracy Trust Interval (95%%): ( 0.9211654009016661 , 0.958834599098334 )
-Decision Forest Wine
-Accuracy Mean: 0.9795206971677559 Accuracy Standard Deviation: 0.03663371321929057
-Accuracy Trust Interval (95%%): ( 0.9664117321368422 , 0.9926296621986697 )
-Decision Forest Breast Cancer
-Accuracy Mean: 0.9572159565580617 Accuracy Standard Deviation: 0.025145238233011638
-Accuracy Trust Interval (95%%): ( 0.9482180139602863 , 0.9662138991558371 )
-Decision Forest Digits
-Accuracy Mean: 0.9773691289054419 Accuracy Standard Deviation: 0.010650492347525296
-Accuracy Trust Interval (95%%): ( 0.9735579691982625 , 0.9811802886126213 )
-Zero-R Iris
-Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
-Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
-Zero-R Wine
-Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
-Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
-Zero-R Breast Cancer
-Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
-Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
-Zero-R Digits
-Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
-Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
-Random Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Stratified Iris
-Accuracy Mean: 0.32666666666666677 Accuracy Standard Deviation: 0.09790395898626973
-Accuracy Trust Interval (95%%): ( 0.29163282865367507 , 0.3617005046796585 )
-Stratified Wine
-Accuracy Mean: 0.30261437908496736 Accuracy Standard Deviation: 0.11839089469718435
-Accuracy Trust Interval (95%%): ( 0.26024951999264 , 0.3449792381772947 )
-Stratified Breast Cancer
-Accuracy Mean: 0.5359753550543024 Accuracy Standard Deviation: 0.054175238444571165
-Accuracy Trust Interval (95%%): ( 0.5165893511824009 , 0.5553613589262039 )
-Stratified Digits
-Accuracy Mean: 0.10292882267742604 Accuracy Standard Deviation: 0.020662791257964046
-Accuracy Trust Interval (95%%): ( 0.09553487365510617 , 0.1103227716997459 )
-Naive Bayes Iris
-Accuracy Mean: 0.9511111111111111 Accuracy Standard Deviation: 0.06425258797689315
-Accuracy Trust Interval (95%%): ( 0.9281190402857254 , 0.9741031819364968 )
-Naive Bayes Wine
-Accuracy Mean: 0.971677559912854 Accuracy Standard Deviation: 0.03867025682751937
-Accuracy Trust Interval (95%%): ( 0.9578398405024867 , 0.9855152793232212 )
-Naive Bayes Breast Cancer
-Accuracy Mean: 0.9338450292397661 Accuracy Standard Deviation: 0.03346866581162138
-Accuracy Trust Interval (95%%): ( 0.9218686410661302 , 0.945821417413402 )
-Naive Bayes Digits
-Accuracy Mean: 0.7811193875439686 Accuracy Standard Deviation: 0.027764766320278297
-Accuracy Trust Interval (95%%): ( 0.7711840760835851 , 0.7910546990043521 )
-One-R Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Uniform k-Neighbors Iris
-Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.04914076530554661
-Accuracy Trust Interval (95%%): ( 0.9357488594328407 , 0.970917807233826 )
-Uniform k-Neighbors Wine
-Accuracy Mean: 0.9590413943355117 Accuracy Standard Deviation: 0.049623967496505335
-Accuracy Trust Interval (95%%): ( 0.9412840119289602 , 0.9767987767420633 )
-Uniform k-Neighbors Breast Cancer
-Accuracy Mean: 0.9631056808688386 Accuracy Standard Deviation: 0.024544919084898798
-Accuracy Trust Interval (95%%): ( 0.9543225557718962 , 0.9718888059657811 )
-Uniform k-Neighbors Digits
-Accuracy Mean: 0.9758835092075315 Accuracy Standard Deviation: 0.011158304122628615
-Accuracy Trust Interval (95%%): ( 0.9718906347295271 , 0.979876383685536 )
-Distance k-Neighbors Iris
-Accuracy Mean: 0.9555555555555557 Accuracy Standard Deviation: 0.046613726585340055
-Accuracy Trust Interval (95%%): ( 0.9388753542308911 , 0.9722357568802203 )
-Distance k-Neighbors Wine
-Accuracy Mean: 0.9643790849673202 Accuracy Standard Deviation: 0.0490584450362643
-Accuracy Trust Interval (95%%): ( 0.9468240684555693 , 0.981934101479071 )
-Distance k-Neighbors Breast Cancer
-Accuracy Mean: 0.9683270676691728 Accuracy Standard Deviation: 0.022054537080277613
-Accuracy Trust Interval (95%%): ( 0.9604350979518876 , 0.9762190373864579 )
-Distance k-Neighbors Digits
-Accuracy Mean: 0.977174632733292 Accuracy Standard Deviation: 0.010315818103371887
-Accuracy Trust Interval (95%%): ( 0.973483232465651 , 0.9808660330009329 )
-Decision Tree Iris
-Accuracy Mean: 0.948888888888889 Accuracy Standard Deviation: 0.04449996532111285
-Accuracy Trust Interval (95%%): ( 0.9329650734192587 , 0.9648127043585193 )
-Decision Tree Wine
-Accuracy Mean: 0.9010893246187363 Accuracy Standard Deviation: 0.07134835100450021
-Accuracy Trust Interval (95%%): ( 0.8755581142625106 , 0.9266205349749619 )
-Decision Tree Breast Cancer
-Accuracy Mean: 0.9261278195488721 Accuracy Standard Deviation: 0.037926716083883386
-Accuracy Trust Interval (95%%): ( 0.9125561678873306 , 0.9396994712104136 )
-Decision Tree Digits
-Accuracy Mean: 0.848820608317815 Accuracy Standard Deviation: 0.023151791225819465
-Accuracy Trust Interval (95%%): ( 0.8405359984622554 , 0.8571052181733747 )
-Decision Forest Iris
-Accuracy Mean: 0.9466666666666668 Accuracy Standard Deviation: 0.052774853720168505
+
+UKN Iris
+Accuracy Mean: 0.9600000000000002 Accuracy Standard Deviation: 0.04745368112013915
+Accuracy Trust Interval (95%%): ( 0.9430192303284053 , 0.9769807696715951 )
+UKN Wine
+Accuracy Mean: 0.9643790849673202 Accuracy Standard Deviation: 0.03423686796629619
+Accuracy Trust Interval (95%%): ( 0.9521278042344172 , 0.9766303657002231 )
+UKN Breast Cancer
+Accuracy Mean: 0.9636695906432747 Accuracy Standard Deviation: 0.024400918732967843
+Accuracy Trust Interval (95%%): ( 0.9549379944636058 , 0.9724011868229436 )
+UKN Digits
+Accuracy Mean: 0.9744040968342644 Accuracy Standard Deviation: 0.010315178339472183
+Accuracy Trust Interval (95%%): ( 0.9707129254989881 , 0.9780952681695407 )
+
+DKN Iris
+Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.05483983413001361
+Accuracy Trust Interval (95%%): ( 0.9337095113197652 , 0.9729571553469015 )
+DKN Wine
+Accuracy Mean: 0.9720043572984749 Accuracy Standard Deviation: 0.034581724807205644
+Accuracy Trust Interval (95%%): ( 0.9596296733975368 , 0.984379041199413 )
+DKN Breast Cancer
+Accuracy Mean: 0.9665935672514618 Accuracy Standard Deviation: 0.020468765962722252
+Accuracy Trust Interval (95%%): ( 0.9592690480135379 , 0.9739180864893858 )
+DKN Digits
+Accuracy Mean: 0.977376370784192 Accuracy Standard Deviation: 0.009395423521574818
+Accuracy Trust Interval (95%%): ( 0.9740143234356832 , 0.9807384181327009 )
+
+DTR Iris
+Accuracy Mean: 0.9466666666666668 Accuracy Standard Deviation: 0.0581186525805423
+Accuracy Trust Interval (95%%): ( 0.9258695560990992 , 0.9674637772342344 )
+DTR Wine
+Accuracy Mean: 0.906644880174292 Accuracy Standard Deviation: 0.0752943981728414
+Accuracy Trust Interval (95%%): ( 0.8797016209211809 , 0.9335881394274032 )
+DTR Breast Cancer
+Accuracy Mean: 0.9215016708437761 Accuracy Standard Deviation: 0.038629033477526206
+Accuracy Trust Interval (95%%): ( 0.9076787027486873 , 0.9353246389388649 )
+DTR Digits
+Accuracy Mean: 0.8558773018828885 Accuracy Standard Deviation: 0.02355913110335587
+Accuracy Trust Interval (95%%): ( 0.8474469300026507 , 0.8643076737631262 )
+
+DFR Iris
+Accuracy Mean: 0.9466666666666668 Accuracy Standard Deviation: 0.0527748537201685
 Accuracy Trust Interval (95%%): ( 0.9277817748243358 , 0.9655515585089978 )
-Decision Forest Wine
-Accuracy Mean: 0.9774509803921568 Accuracy Standard Deviation: 0.034640009039638715
-Accuracy Trust Interval (95%%): ( 0.9650554401297506 , 0.989846520654563 )
-Decision Forest Breast Cancer
-Accuracy Mean: 0.9613199665831244 Accuracy Standard Deviation: 0.027785793216700227
-Accuracy Trust Interval (95%%): ( 0.9513771308827531 , 0.9712628022834956 )
-Decision Forest Digits
-Accuracy Mean: 0.9758845437616388 Accuracy Standard Deviation: 0.011452379389545724
-Accuracy Trust Interval (95%%): ( 0.9717864377345583 , 0.9799826497887193 )
-Zero-R Iris
-Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
-Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
-Zero-R Wine
-Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
-Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
-Zero-R Breast Cancer
-Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
-Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
-Zero-R Digits
-Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
-Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
-Random Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Stratified Iris
-Accuracy Mean: 0.32222222222222224 Accuracy Standard Deviation: 0.15970652096738625
-Accuracy Trust Interval (95%%): ( 0.2650730278165645 , 0.37937141662788 )
-Stratified Wine
-Accuracy Mean: 0.3277777777777778 Accuracy Standard Deviation: 0.11094807338684337
-Accuracy Trust Interval (95%%): ( 0.28807624914568947 , 0.3674793064098661 )
-Stratified Breast Cancer
-Accuracy Mean: 0.5026942355889725 Accuracy Standard Deviation: 0.05589740367050897
-Accuracy Trust Interval (95%%): ( 0.4826919741297188 , 0.5226964970482263 )
-Stratified Digits
-Accuracy Mean: 0.09682288433685082 Accuracy Standard Deviation: 0.02348507390334601
-Accuracy Trust Interval (95%%): ( 0.08841901299832455 , 0.10522675567537709 )
-Naive Bayes Iris
-Accuracy Mean: 0.9533333333333334 Accuracy Standard Deviation: 0.04914076530554661
-Accuracy Trust Interval (95%%): ( 0.9357488594328407 , 0.970917807233826 )
-Naive Bayes Wine
-Accuracy Mean: 0.971677559912854 Accuracy Standard Deviation: 0.03802039428855166
-Accuracy Trust Interval (95%%): ( 0.9580723865522752 , 0.9852827332734327 )
-Naive Bayes Breast Cancer
-Accuracy Mean: 0.9296365914786967 Accuracy Standard Deviation: 0.035579705101422304
-Accuracy Trust Interval (95%%): ( 0.9169047914781671 , 0.9423683914792264 )
-Naive Bayes Digits
-Accuracy Mean: 0.7868332298779226 Accuracy Standard Deviation: 0.028066853486322884
-Accuracy Trust Interval (95%%): ( 0.7767898198998633 , 0.7968766398559819 )
-One-R Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Uniform k-Neighbors Iris
-Accuracy Mean: 0.9555555555555557 Accuracy Standard Deviation: 0.04331908597692872
-Accuracy Trust Interval (95%%): ( 0.9400543045673355 , 0.9710568065437759 )
-Uniform k-Neighbors Wine
-Accuracy Mean: 0.9584967320261437 Accuracy Standard Deviation: 0.043731872618918866
-Accuracy Trust Interval (95%%): ( 0.9428477699494329 , 0.9741456941028546 )
-Uniform k-Neighbors Breast Cancer
-Accuracy Mean: 0.9677736006683374 Accuracy Standard Deviation: 0.019292367833343753
-Accuracy Trust Interval (95%%): ( 0.9608700423591662 , 0.9746771589775086 )
-Uniform k-Neighbors Digits
-Accuracy Mean: 0.9768197806745295 Accuracy Standard Deviation: 0.010738099722165545
-Accuracy Trust Interval (95%%): ( 0.9729772716470195 , 0.9806622897020394 )
-Distance k-Neighbors Iris
-Accuracy Mean: 0.9555555555555556 Accuracy Standard Deviation: 0.06045098003882417
-Accuracy Trust Interval (95%%): ( 0.9339238476620703 , 0.9771872634490409 )
-Distance k-Neighbors Wine
-Accuracy Mean: 0.9604575163398692 Accuracy Standard Deviation: 0.054861420347031016
-Accuracy Trust Interval (95%%): ( 0.9408259699396866 , 0.9800890627400518 )
-Distance k-Neighbors Breast Cancer
-Accuracy Mean: 0.9683792815371763 Accuracy Standard Deviation: 0.02770799835947497
-Accuracy Trust Interval (95%%): ( 0.9584642838573969 , 0.9782942792169558 )
-Distance k-Neighbors Digits
-Accuracy Mean: 0.9760666252845025 Accuracy Standard Deviation: 0.009873330632892429
-Accuracy Trust Interval (95%%): ( 0.9725335642150317 , 0.9795996863539733 )
-Decision Tree Iris
-Accuracy Mean: 0.9466666666666668 Accuracy Standard Deviation: 0.05551109331909685
-Accuracy Trust Interval (95%%): ( 0.9268026420510939 , 0.9665306912822397 )
-Decision Tree Wine
-Accuracy Mean: 0.8968409586056645 Accuracy Standard Deviation: 0.08995216353668271
-Accuracy Trust Interval (95%%): ( 0.8646525817627604 , 0.9290293354485686 )
-Decision Tree Breast Cancer
-Accuracy Mean: 0.9226921470342524 Accuracy Standard Deviation: 0.030558490883219724
-Accuracy Trust Interval (95%%): ( 0.9117571324484343 , 0.9336271616200705 )
-Decision Tree Digits
-Accuracy Mean: 0.8566139044072004 Accuracy Standard Deviation: 0.020634827339701334
-Accuracy Trust Interval (95%%): ( 0.8492299619606387 , 0.8639978468537621 )
-Decision Forest Iris
-Accuracy Mean: 0.9444444444444444 Accuracy Standard Deviation: 0.0598351645237167
-Accuracy Trust Interval (95%%): ( 0.9230330992536071 , 0.9658557896352817 )
-Decision Forest Wine
-Accuracy Mean: 0.9793028322440087 Accuracy Standard Deviation: 0.034309402501140805
-Accuracy Trust Interval (95%%): ( 0.9670255958381135 , 0.9915800686499039 )
-Decision Forest Breast Cancer
-Accuracy Mean: 0.9613512949039262 Accuracy Standard Deviation: 0.029146619223247048
-Accuracy Trust Interval (95%%): ( 0.9509215028192487 , 0.9717810869886038 )
-Decision Forest Digits
-Accuracy Mean: 0.9755152079453756 Accuracy Standard Deviation: 0.011744493211586582
-Accuracy Trust Interval (95%%): ( 0.9713125722503563 , 0.9797178436403949 )
-Zero-R Iris
-Accuracy Mean: 0.3333333333333334 Accuracy Standard Deviation: 1.1102230246251565e-16
-Accuracy Trust Interval (95%%): ( 0.33333333333333337 , 0.3333333333333335 )
-Zero-R Wine
-Accuracy Mean: 0.3993464052287583 Accuracy Standard Deviation: 0.024707265583576204
-Accuracy Trust Interval (95%%): ( 0.3905051862508785 , 0.4081876242066381 )
-Zero-R Breast Cancer
-Accuracy Mean: 0.6274122807017544 Accuracy Standard Deviation: 0.006965956216784448
-Accuracy Trust Interval (95%%): ( 0.6249195910880622 , 0.6299049703154466 )
-Zero-R Digits
-Accuracy Mean: 0.10128491620111733 Accuracy Standard Deviation: 0.0024357798163789517
-Accuracy Trust Interval (95%%): ( 0.1004132996045474 , 0.10215653279768727 )
-Random Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Random Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Stratified Iris
-Accuracy Mean: 0.2977777777777778 Accuracy Standard Deviation: 0.12499876542600208
-Accuracy Trust Interval (95%%): ( 0.2530483659633623 , 0.34250718959219334 )
-Stratified Wine
-Accuracy Mean: 0.33671023965141605 Accuracy Standard Deviation: 0.10587590869511405
-Accuracy Trust Interval (95%%): ( 0.29882372849180994 , 0.37459675081102217 )
-Stratified Breast Cancer
-Accuracy Mean: 0.5277986633249792 Accuracy Standard Deviation: 0.08048484559900837
-Accuracy Trust Interval (95%%): ( 0.49899806044423406 , 0.5565992662057242 )
-Stratified Digits
-Accuracy Mean: 0.10108731636664597 Accuracy Standard Deviation: 0.023854008390792738
-Accuracy Trust Interval (95%%): ( 0.09255142594324872 , 0.10962320679004323 )
-Naive Bayes Iris
-Accuracy Mean: 0.9511111111111111 Accuracy Standard Deviation: 0.051448164012401
-Accuracy Trust Interval (95%%): ( 0.9327009603599136 , 0.9695212618623087 )
-Naive Bayes Wine
-Accuracy Mean: 0.9777777777777777 Accuracy Standard Deviation: 0.0420659877466687
-Accuracy Trust Interval (95%%): ( 0.9627249339925743 , 0.9928306215629812 )
-Naive Bayes Breast Cancer
-Accuracy Mean: 0.9326127819548872 Accuracy Standard Deviation: 0.03938061308405343
-Accuracy Trust Interval (95%%): ( 0.9185208694936913 , 0.9467046944160831 )
-Naive Bayes Digits
-Accuracy Mean: 0.7818684047175668 Accuracy Standard Deviation: 0.03241622921107894
-Accuracy Trust Interval (95%%): ( 0.7702686192243957 , 0.7934681902107379 )
-One-R Iris
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Wine
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Breast Cancer
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-One-R Digits
-Accuracy Mean: nan Accuracy Standard Deviation: nan
-Accuracy Trust Interval (95%%): ( nan , nan )
-Uniform k-Neighbors Iris
-Accuracy Mean: 0.9600000000000002 Accuracy Standard Deviation: 0.05333333333333333
-Accuracy Trust Interval (95%%): ( 0.9409152624670172 , 0.9790847375329832 )
-Uniform k-Neighbors Wine
-Accuracy Mean: 0.9644880174291938 Accuracy Standard Deviation: 0.03671912772293409
-Accuracy Trust Interval (95%%): ( 0.9513484877723386 , 0.9776275470860489 )
-Uniform k-Neighbors Breast Cancer
-Accuracy Mean: 0.9672201336675018 Accuracy Standard Deviation: 0.027450532248606642
-Accuracy Trust Interval (95%%): ( 0.9573972673592767 , 0.977042999975727 )
-Uniform k-Neighbors Digits
-Accuracy Mean: 0.9766294227188081 Accuracy Standard Deviation: 0.012130820781951735
-Accuracy Trust Interval (95%%): ( 0.9722885440184981 , 0.9809703014191182 )
-Distance k-Neighbors Iris
-Accuracy Mean: 0.9555555555555556 Accuracy Standard Deviation: 0.046613726585340055
-Accuracy Trust Interval (95%%): ( 0.938875354230891 , 0.9722357568802202 )
-Distance k-Neighbors Wine
-Accuracy Mean: 0.9644880174291938 Accuracy Standard Deviation: 0.03671912772293409
-Accuracy Trust Interval (95%%): ( 0.9513484877723386 , 0.9776275470860489 )
-Distance k-Neighbors Breast Cancer
-Accuracy Mean: 0.9648391812865497 Accuracy Standard Deviation: 0.029723261564919157
-Accuracy Trust Interval (95%%): ( 0.9542030441817243 , 0.975475318391375 )
-Distance k-Neighbors Digits
-Accuracy Mean: 0.9783022967101178 Accuracy Standard Deviation: 0.012708460336556296
-Accuracy Trust Interval (95%%): ( 0.9737547161481521 , 0.9828498772720835 )
-Decision Tree Iris
-Accuracy Mean: 0.9444444444444445 Accuracy Standard Deviation: 0.045812284729085107
-Accuracy Trust Interval (95%%): ( 0.9280510301349282 , 0.9608378587539609 )
-Decision Tree Wine
-Accuracy Mean: 0.9022875816993462 Accuracy Standard Deviation: 0.05843706259184803
-Accuracy Trust Interval (95%%): ( 0.8813765316662727 , 0.9231986317324197 )
-Decision Tree Breast Cancer
-Accuracy Mean: 0.926764828738513 Accuracy Standard Deviation: 0.03112545883478822
-Accuracy Trust Interval (95%%): ( 0.9156269310049705 , 0.9379027264720554 )
-Decision Tree Digits
-Accuracy Mean: 0.8558545416925304 Accuracy Standard Deviation: 0.02965664628485606
-Accuracy Trust Interval (95%%): ( 0.8452422421214992 , 0.8664668412635615 )
-Decision Forest Iris
-Accuracy Mean: 0.9444444444444444 Accuracy Standard Deviation: 0.05187830013301667
-Accuracy Trust Interval (95%%): ( 0.9258803742876456 , 0.9630085146012433 )
-Decision Forest Wine
-Accuracy Mean: 0.9812636165577342 Accuracy Standard Deviation: 0.026507993332035094
-Accuracy Trust Interval (95%%): ( 0.9717780272714601 , 0.9907492058440083 )
-Decision Forest Breast Cancer
-Accuracy Mean: 0.9566311612364242 Accuracy Standard Deviation: 0.023130922678464606
-Accuracy Trust Interval (95%%): ( 0.9483540189574076 , 0.9649083035154409 )
-Decision Forest Digits
-Accuracy Mean: 0.9779267535692118 Accuracy Standard Deviation: 0.01171298310884629
-Accuracy Trust Interval (95%%): ( 0.9737353934124506 , 0.9821181137259729 )
+DFR Wine
+Accuracy Mean: 0.9757080610021786 Accuracy Standard Deviation: 0.03166938517746617
+Accuracy Trust Interval (95%%): ( 0.9643755253032494 , 0.9870405967011077 )
+DFR Breast Cancer
+Accuracy Mean: 0.9613199665831245 Accuracy Standard Deviation: 0.027387085130970837
+Accuracy Trust Interval (95%%): ( 0.9515198041171612 , 0.9711201290490877 )
+DFR Digits
+Accuracy Mean: 0.9770070349679288 Accuracy Standard Deviation: 0.01231602946622905
+Accuracy Trust Interval (95%%): ( 0.9725998814089638 , 0.9814141885268939 )
+
+KMC Iris
+Accuracy Mean: 0.9511111111111111 Accuracy Standard Deviation: 0.05946261404559845
+Accuracy Trust Interval (95%%): ( 0.9298330789470115 , 0.9723891432752108 )
+KMC Wine
+Accuracy Mean: 0.9681917211328976 Accuracy Standard Deviation: 0.034439889788008535
+Accuracy Trust Interval (95%%): ( 0.9558677913091038 , 0.9805156509566915 )
+KMC Breast Cancer
+Accuracy Mean: 0.953111946532999 Accuracy Standard Deviation: 0.02705980371915837
+Accuracy Trust Interval (95%%): ( 0.9434288980641082 , 0.9627949950018898 )
+KMC Digits
+Accuracy Mean: 0.9493585764535485 Accuracy Standard Deviation: 0.013877166508951405
+Accuracy Trust Interval (95%%): ( 0.9443927874437077 , 0.9543243654633893 )
+
+GAC Iris
+Accuracy Mean: 0.957777777777778 Accuracy Standard Deviation: 0.05300826863056248
+Accuracy Trust Interval (95%%): ( 0.9388093610173003 , 0.9767461945382556 )
+GAC Wine
+Accuracy Mean: 0.9623093681917209 Accuracy Standard Deviation: 0.04957372602467239
+Accuracy Trust Interval (95%%): ( 0.9445699641346044 , 0.9800487722488374 )
+GAC Breast Cancer
+Accuracy Mean: 0.9501775271512114 Accuracy Standard Deviation: 0.02575897819776047
+Accuracy Trust Interval (95%%): ( 0.9409599645632972 , 0.9593950897391256 )
+GAC Digits
+Accuracy Mean: 0.9528791640802813 Accuracy Standard Deviation: 0.014805435874311495
+Accuracy Trust Interval (95%%): ( 0.9475812042479816 , 0.9581771239125809 )
+
+
+Paired test in the Iris dataset:
+
+T-Paired test with 0R / RND = Ttest_relResult(statistic=-1.2019265446319176, pvalue=0.23911529080222932)
+Wilcoxon test with 0R / RND = WilcoxonResult(statistic=89.0, pvalue=0.04654714280145566)
+T-Paired test with 0R / STR = Ttest_relResult(statistic=0.7363147975656045, pvalue=0.4674539384336238)
+Wilcoxon test with 0R / STR = WilcoxonResult(statistic=174.0, pvalue=0.9694062739403722)
+T-Paired test with 0R / NBA = Ttest_relResult(statistic=-56.340378336486445, pvalue=3.48796278931337e-31)
+Wilcoxon test with 0R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.074533845672884e-06)
+T-Paired test with 0R / 1R = Ttest_relResult(statistic=-36.16392219177399, pvalue=1.1171717849935334e-25)
+Wilcoxon test with 0R / 1R = WilcoxonResult(statistic=0.0, pvalue=1.3047652363503266e-06)
+T-Paired test with 0R / UKN = Ttest_relResult(statistic=-71.11573221461661, pvalue=4.265000642586829e-34)
+Wilcoxon test with 0R / UKN = WilcoxonResult(statistic=0.0, pvalue=9.877718380864368e-07)
+T-Paired test with 0R / DKN = Ttest_relResult(statistic=-60.8827913758419, pvalue=3.749156878170938e-32)
+Wilcoxon test with 0R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.0723439171545353e-06)
+T-Paired test with 0R / DTR = Ttest_relResult(statistic=-56.83031066716352, pvalue=2.71938843811789e-31)
+Wilcoxon test with 0R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.132043288010534e-06)
+T-Paired test with 0R / DFR = Ttest_relResult(statistic=-62.58475104871626, pvalue=1.695223700290492e-32)
+Wilcoxon test with 0R / DFR = WilcoxonResult(statistic=0.0, pvalue=9.568777065696764e-07)
+T-Paired test with 0R / KMC = Ttest_relResult(statistic=-55.948350083760054, pvalue=4.263220285618103e-31)
+Wilcoxon test with 0R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.075995886634496e-06)
+T-Paired test with 0R / GAC = Ttest_relResult(statistic=-63.43795662652633, pvalue=1.147849038103442e-32)
+Wilcoxon test with 0R / GAC = WilcoxonResult(statistic=0.0, pvalue=9.91862736776599e-07)
+T-Paired test with RND / 0R = Ttest_relResult(statistic=1.2019265446319176, pvalue=0.23911529080222932)
+Wilcoxon test with RND / 0R = WilcoxonResult(statistic=89.0, pvalue=0.04654714280145566)
+T-Paired test with RND / STR = Ttest_relResult(statistic=1.3938895364060357, pvalue=0.1739409827919541)
+Wilcoxon test with RND / STR = WilcoxonResult(statistic=136.0, pvalue=0.19903487297951128)
+T-Paired test with RND / NBA = Ttest_relResult(statistic=-30.51229260478472, pvalue=1.364776004026601e-23)
+Wilcoxon test with RND / NBA = WilcoxonResult(statistic=0.0, pvalue=1.6551974414045431e-06)
+T-Paired test with RND / 1R = Ttest_relResult(statistic=-19.73877521179885, pvalue=2.3439209463371785e-18)
+Wilcoxon test with RND / 1R = WilcoxonResult(statistic=0.0, pvalue=1.607505526400268e-06)
+T-Paired test with RND / UKN = Ttest_relResult(statistic=-25.762228699154168, pvalue=1.5581494393497238e-21)
+Wilcoxon test with RND / UKN = WilcoxonResult(statistic=0.0, pvalue=1.659399844033728e-06)
+T-Paired test with RND / DKN = Ttest_relResult(statistic=-25.138548127164142, pvalue=3.0793476523649847e-21)
+Wilcoxon test with RND / DKN = WilcoxonResult(statistic=0.0, pvalue=1.6332804398014518e-06)
+T-Paired test with RND / DTR = Ttest_relResult(statistic=-24.384540992523487, pvalue=7.165245107044079e-21)
+Wilcoxon test with RND / DTR = WilcoxonResult(statistic=0.0, pvalue=1.6260288936759677e-06)
+T-Paired test with RND / DFR = Ttest_relResult(statistic=-32.03056632095832, pvalue=3.4715340538246184e-24)
+Wilcoxon test with RND / DFR = WilcoxonResult(statistic=0.0, pvalue=1.5106941958960226e-06)
+T-Paired test with RND / KMC = Ttest_relResult(statistic=-23.508039198894156, pvalue=1.9714548563093667e-20)
+Wilcoxon test with RND / KMC = WilcoxonResult(statistic=0.0, pvalue=1.658348408536204e-06)
+T-Paired test with RND / GAC = Ttest_relResult(statistic=-27.3803004195321, pvalue=2.8494257581865714e-22)
+Wilcoxon test with RND / GAC = WilcoxonResult(statistic=0.0, pvalue=1.5891588884296042e-06)
+T-Paired test with STR / 0R = Ttest_relResult(statistic=-0.7363147975656045, pvalue=0.4674539384336238)
+Wilcoxon test with STR / 0R = WilcoxonResult(statistic=174.0, pvalue=0.9694062739403722)
+T-Paired test with STR / RND = Ttest_relResult(statistic=-1.3938895364060357, pvalue=0.1739409827919541)
+Wilcoxon test with STR / RND = WilcoxonResult(statistic=136.0, pvalue=0.19903487297951128)
+T-Paired test with STR / NBA = Ttest_relResult(statistic=-25.129384415920544, pvalue=3.1106816180619752e-21)
+Wilcoxon test with STR / NBA = WilcoxonResult(statistic=0.0, pvalue=1.6530995771390012e-06)
+T-Paired test with STR / 1R = Ttest_relResult(statistic=-19.5196046901345, pvalue=3.169871058248145e-18)
+Wilcoxon test with STR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6229293364132389e-06)
+T-Paired test with STR / UKN = Ttest_relResult(statistic=-28.277903301350026, pvalue=1.1552973920850254e-22)
+Wilcoxon test with STR / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6468193103618995e-06)
+T-Paired test with STR / DKN = Ttest_relResult(statistic=-24.339855616428206, pvalue=7.538597114176017e-21)
+Wilcoxon test with STR / DKN = WilcoxonResult(statistic=0.0, pvalue=1.6260288936759677e-06)
+T-Paired test with STR / DTR = Ttest_relResult(statistic=-27.367463740540703, pvalue=2.8870243222760625e-22)
+Wilcoxon test with STR / DTR = WilcoxonResult(statistic=0.0, pvalue=1.6291333971178228e-06)
+T-Paired test with STR / DFR = Ttest_relResult(statistic=-29.109243345672986, pvalue=5.1260986585005154e-23)
+Wilcoxon test with STR / DFR = WilcoxonResult(statistic=0.0, pvalue=1.5401000787993816e-06)
+T-Paired test with STR / KMC = Ttest_relResult(statistic=-29.29359578642337, pvalue=4.2934526528452206e-23)
+Wilcoxon test with STR / KMC = WilcoxonResult(statistic=0.0, pvalue=1.607505526400268e-06)
+T-Paired test with STR / GAC = Ttest_relResult(statistic=-27.873468254921914, pvalue=1.7293866652541407e-22)
+Wilcoxon test with STR / GAC = WilcoxonResult(statistic=0.0, pvalue=1.426206748762978e-06)
+T-Paired test with NBA / 0R = Ttest_relResult(statistic=56.340378336486445, pvalue=3.48796278931337e-31)
+Wilcoxon test with NBA / 0R = WilcoxonResult(statistic=0.0, pvalue=1.074533845672884e-06)
+T-Paired test with NBA / RND = Ttest_relResult(statistic=30.51229260478472, pvalue=1.364776004026601e-23)
+Wilcoxon test with NBA / RND = WilcoxonResult(statistic=0.0, pvalue=1.6551974414045431e-06)
+T-Paired test with NBA / STR = Ttest_relResult(statistic=25.129384415920544, pvalue=3.1106816180619752e-21)
+Wilcoxon test with NBA / STR = WilcoxonResult(statistic=0.0, pvalue=1.6530995771390012e-06)
+T-Paired test with NBA / 1R = Ttest_relResult(statistic=2.3176437495926017, pvalue=0.02772666410481537)
+Wilcoxon test with NBA / 1R = WilcoxonResult(statistic=37.5, pvalue=0.03156688711439703)
+T-Paired test with NBA / UKN = Ttest_relResult(statistic=-0.8950446761897926, pvalue=0.3781322970329384)
+Wilcoxon test with NBA / UKN = WilcoxonResult(statistic=36.0, pvalue=0.47549931294167447)
+T-Paired test with NBA / DKN = Ttest_relResult(statistic=-0.2968937464086017, pvalue=0.7686637844359996)
+Wilcoxon test with NBA / DKN = WilcoxonResult(statistic=112.0, pvalue=0.898657881247535)
+T-Paired test with NBA / DTR = Ttest_relResult(statistic=0.14346418727514548, pvalue=0.8869158455045166)
+Wilcoxon test with NBA / DTR = WilcoxonResult(statistic=121.0, pvalue=0.8500411187580595)
+T-Paired test with NBA / DFR = Ttest_relResult(statistic=0.1536112621311972, pvalue=0.8789802133603226)
+Wilcoxon test with NBA / DFR = WilcoxonResult(statistic=66.0, pvalue=0.9143759311699666)
+T-Paired test with NBA / KMC = Ttest_relResult(statistic=-0.14050381000626438, pvalue=0.8892333300002706)
+Wilcoxon test with NBA / KMC = WilcoxonResult(statistic=122.5, pvalue=0.8905854118965228)
+T-Paired test with NBA / GAC = Ttest_relResult(statistic=-0.6425039983535947, pvalue=0.525593394845842)
+Wilcoxon test with NBA / GAC = WilcoxonResult(statistic=48.0, pvalue=0.4838324097841302)
+T-Paired test with 1R / 0R = Ttest_relResult(statistic=36.16392219177399, pvalue=1.1171717849935334e-25)
+Wilcoxon test with 1R / 0R = WilcoxonResult(statistic=0.0, pvalue=1.3047652363503266e-06)
+T-Paired test with 1R / RND = Ttest_relResult(statistic=19.73877521179885, pvalue=2.3439209463371785e-18)
+Wilcoxon test with 1R / RND = WilcoxonResult(statistic=0.0, pvalue=1.607505526400268e-06)
+T-Paired test with 1R / STR = Ttest_relResult(statistic=19.5196046901345, pvalue=3.169871058248145e-18)
+Wilcoxon test with 1R / STR = WilcoxonResult(statistic=0.0, pvalue=1.6229293364132389e-06)
+T-Paired test with 1R / NBA = Ttest_relResult(statistic=-2.3176437495926017, pvalue=0.02772666410481537)
+Wilcoxon test with 1R / NBA = WilcoxonResult(statistic=37.5, pvalue=0.03156688711439703)
+T-Paired test with 1R / UKN = Ttest_relResult(statistic=-2.93131243517176, pvalue=0.006522358629623797)
+Wilcoxon test with 1R / UKN = WilcoxonResult(statistic=21.5, pvalue=0.00799370635841465)
+T-Paired test with 1R / DKN = Ttest_relResult(statistic=-2.9112109345369994, pvalue=0.006854328914698112)
+Wilcoxon test with 1R / DKN = WilcoxonResult(statistic=22.5, pvalue=0.008838723279402954)
+T-Paired test with 1R / DTR = Ttest_relResult(statistic=-2.1588687513867737, pvalue=0.039271327850724715)
+Wilcoxon test with 1R / DTR = WilcoxonResult(statistic=86.0, pvalue=0.05938782761997695)
+T-Paired test with 1R / DFR = Ttest_relResult(statistic=-2.262221708591696, pvalue=0.031351693280649656)
+Wilcoxon test with 1R / DFR = WilcoxonResult(statistic=47.0, pvalue=0.024007710210666163)
+T-Paired test with 1R / KMC = Ttest_relResult(statistic=-2.065116433122583, pvalue=0.04795344067137778)
+Wilcoxon test with 1R / KMC = WilcoxonResult(statistic=95.5, pvalue=0.06095728139793248)
+T-Paired test with 1R / GAC = Ttest_relResult(statistic=-2.9856328452013567, pvalue=0.00569972581393871)
+Wilcoxon test with 1R / GAC = WilcoxonResult(statistic=21.5, pvalue=0.004188576767034388)
+T-Paired test with UKN / 0R = Ttest_relResult(statistic=71.11573221461661, pvalue=4.265000642586829e-34)
+Wilcoxon test with UKN / 0R = WilcoxonResult(statistic=0.0, pvalue=9.877718380864368e-07)
+T-Paired test with UKN / RND = Ttest_relResult(statistic=25.762228699154168, pvalue=1.5581494393497238e-21)
+Wilcoxon test with UKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.659399844033728e-06)
+T-Paired test with UKN / STR = Ttest_relResult(statistic=28.277903301350026, pvalue=1.1552973920850254e-22)
+Wilcoxon test with UKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.6468193103618995e-06)
+T-Paired test with UKN / NBA = Ttest_relResult(statistic=0.8950446761897926, pvalue=0.3781322970329384)
+Wilcoxon test with UKN / NBA = WilcoxonResult(statistic=36.0, pvalue=0.47549931294167447)
+T-Paired test with UKN / 1R = Ttest_relResult(statistic=2.93131243517176, pvalue=0.006522358629623797)
+Wilcoxon test with UKN / 1R = WilcoxonResult(statistic=21.5, pvalue=0.00799370635841465)
+T-Paired test with UKN / DKN = Ttest_relResult(statistic=0.5158052402521319, pvalue=0.6099008887729085)
+Wilcoxon test with UKN / DKN = WilcoxonResult(statistic=85.0, pvalue=0.6647225576446822)
+T-Paired test with UKN / DTR = Ttest_relResult(statistic=0.9724464889715236, pvalue=0.3388703109351985)
+Wilcoxon test with UKN / DTR = WilcoxonResult(statistic=91.0, pvalue=0.3629542015410667)
+T-Paired test with UKN / DFR = Ttest_relResult(statistic=0.9235481451827989, pvalue=0.36334262274624407)
+Wilcoxon test with UKN / DFR = WilcoxonResult(statistic=102.0, pvalue=0.39946540785146645)
+T-Paired test with UKN / KMC = Ttest_relResult(statistic=0.6603712785728267, pvalue=0.514227220481028)
+Wilcoxon test with UKN / KMC = WilcoxonResult(statistic=81.0, pvalue=0.5494418073483158)
+T-Paired test with UKN / GAC = Ttest_relResult(statistic=0.16626898853693184, pvalue=0.8690991006131836)
+Wilcoxon test with UKN / GAC = WilcoxonResult(statistic=58.0, pvalue=0.9062058741352165)
+T-Paired test with DKN / 0R = Ttest_relResult(statistic=60.8827913758419, pvalue=3.749156878170938e-32)
+Wilcoxon test with DKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.0723439171545353e-06)
+T-Paired test with DKN / RND = Ttest_relResult(statistic=25.138548127164142, pvalue=3.0793476523649847e-21)
+Wilcoxon test with DKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.6332804398014518e-06)
+T-Paired test with DKN / STR = Ttest_relResult(statistic=24.339855616428206, pvalue=7.538597114176017e-21)
+Wilcoxon test with DKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.6260288936759677e-06)
+T-Paired test with DKN / NBA = Ttest_relResult(statistic=0.2968937464086017, pvalue=0.7686637844359996)
+Wilcoxon test with DKN / NBA = WilcoxonResult(statistic=112.0, pvalue=0.898657881247535)
+T-Paired test with DKN / 1R = Ttest_relResult(statistic=2.9112109345369994, pvalue=0.006854328914698112)
+Wilcoxon test with DKN / 1R = WilcoxonResult(statistic=22.5, pvalue=0.008838723279402954)
+T-Paired test with DKN / UKN = Ttest_relResult(statistic=-0.5158052402521319, pvalue=0.6099008887729085)
+Wilcoxon test with DKN / UKN = WilcoxonResult(statistic=85.0, pvalue=0.6647225576446822)
+T-Paired test with DKN / DTR = Ttest_relResult(statistic=0.4741373235154427, pvalue=0.6389525807205481)
+Wilcoxon test with DKN / DTR = WilcoxonResult(statistic=59.0, pvalue=0.630893213945377)
+T-Paired test with DKN / DFR = Ttest_relResult(statistic=0.42266388994136883, pvalue=0.675658123261812)
+Wilcoxon test with DKN / DFR = WilcoxonResult(statistic=80.0, pvalue=0.8051576674474419)
+T-Paired test with DKN / KMC = Ttest_relResult(statistic=0.1350943077815101, pvalue=0.8934706332567267)
+Wilcoxon test with DKN / KMC = WilcoxonResult(statistic=102.5, pvalue=0.922456371257113)
+T-Paired test with DKN / GAC = Ttest_relResult(statistic=-0.3378952919862257, pvalue=0.7378759697181805)
+Wilcoxon test with DKN / GAC = WilcoxonResult(statistic=67.0, pvalue=0.6348927284582411)
+T-Paired test with DTR / 0R = Ttest_relResult(statistic=56.83031066716352, pvalue=2.71938843811789e-31)
+Wilcoxon test with DTR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.132043288010534e-06)
+T-Paired test with DTR / RND = Ttest_relResult(statistic=24.384540992523487, pvalue=7.165245107044079e-21)
+Wilcoxon test with DTR / RND = WilcoxonResult(statistic=0.0, pvalue=1.6260288936759677e-06)
+T-Paired test with DTR / STR = Ttest_relResult(statistic=27.367463740540703, pvalue=2.8870243222760625e-22)
+Wilcoxon test with DTR / STR = WilcoxonResult(statistic=0.0, pvalue=1.6291333971178228e-06)
+T-Paired test with DTR / NBA = Ttest_relResult(statistic=-0.14346418727514548, pvalue=0.8869158455045166)
+Wilcoxon test with DTR / NBA = WilcoxonResult(statistic=121.0, pvalue=0.8500411187580595)
+T-Paired test with DTR / 1R = Ttest_relResult(statistic=2.1588687513867737, pvalue=0.039271327850724715)
+Wilcoxon test with DTR / 1R = WilcoxonResult(statistic=86.0, pvalue=0.05938782761997695)
+T-Paired test with DTR / UKN = Ttest_relResult(statistic=-0.9724464889715236, pvalue=0.3388703109351985)
+Wilcoxon test with DTR / UKN = WilcoxonResult(statistic=91.0, pvalue=0.3629542015410667)
+T-Paired test with DTR / DKN = Ttest_relResult(statistic=-0.4741373235154427, pvalue=0.6389525807205481)
+Wilcoxon test with DTR / DKN = WilcoxonResult(statistic=59.0, pvalue=0.630893213945377)
+T-Paired test with DTR / DFR = Ttest_relResult(statistic=0.0, pvalue=1.0)
+Wilcoxon test with DTR / DFR = WilcoxonResult(statistic=111.0, pvalue=0.8635123765654344)
+T-Paired test with DTR / KMC = Ttest_relResult(statistic=-0.2784602430363654, pvalue=0.7826350296749631)
+Wilcoxon test with DTR / KMC = WilcoxonResult(statistic=94.5, pvalue=0.6797256913870091)
+T-Paired test with DTR / GAC = Ttest_relResult(statistic=-0.7957309676805121, pvalue=0.43265388837252683)
+Wilcoxon test with DTR / GAC = WilcoxonResult(statistic=53.5, pvalue=0.4388772204158913)
+T-Paired test with DFR / 0R = Ttest_relResult(statistic=62.58475104871626, pvalue=1.695223700290492e-32)
+Wilcoxon test with DFR / 0R = WilcoxonResult(statistic=0.0, pvalue=9.568777065696764e-07)
+T-Paired test with DFR / RND = Ttest_relResult(statistic=32.03056632095832, pvalue=3.4715340538246184e-24)
+Wilcoxon test with DFR / RND = WilcoxonResult(statistic=0.0, pvalue=1.5106941958960226e-06)
+T-Paired test with DFR / STR = Ttest_relResult(statistic=29.109243345672986, pvalue=5.1260986585005154e-23)
+Wilcoxon test with DFR / STR = WilcoxonResult(statistic=0.0, pvalue=1.5401000787993816e-06)
+T-Paired test with DFR / NBA = Ttest_relResult(statistic=-0.1536112621311972, pvalue=0.8789802133603226)
+Wilcoxon test with DFR / NBA = WilcoxonResult(statistic=66.0, pvalue=0.9143759311699666)
+T-Paired test with DFR / 1R = Ttest_relResult(statistic=2.262221708591696, pvalue=0.031351693280649656)
+Wilcoxon test with DFR / 1R = WilcoxonResult(statistic=47.0, pvalue=0.024007710210666163)
+T-Paired test with DFR / UKN = Ttest_relResult(statistic=-0.9235481451827989, pvalue=0.36334262274624407)
+Wilcoxon test with DFR / UKN = WilcoxonResult(statistic=102.0, pvalue=0.39946540785146645)
+T-Paired test with DFR / DKN = Ttest_relResult(statistic=-0.42266388994136883, pvalue=0.675658123261812)
+Wilcoxon test with DFR / DKN = WilcoxonResult(statistic=80.0, pvalue=0.8051576674474419)
+T-Paired test with DFR / DTR = Ttest_relResult(statistic=0.0, pvalue=1.0)
+Wilcoxon test with DFR / DTR = WilcoxonResult(statistic=111.0, pvalue=0.8635123765654344)
+T-Paired test with DFR / KMC = Ttest_relResult(statistic=-0.2842181280103252, pvalue=0.7782627969762178)
+Wilcoxon test with DFR / KMC = WilcoxonResult(statistic=102.0, pvalue=0.9069858567586424)
+T-Paired test with DFR / GAC = Ttest_relResult(statistic=-0.7235092977779339, pvalue=0.47516295559604227)
+Wilcoxon test with DFR / GAC = WilcoxonResult(statistic=87.0, pvalue=0.47399038827546125)
+T-Paired test with KMC / 0R = Ttest_relResult(statistic=55.948350083760054, pvalue=4.263220285618103e-31)
+Wilcoxon test with KMC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.075995886634496e-06)
+T-Paired test with KMC / RND = Ttest_relResult(statistic=23.508039198894156, pvalue=1.9714548563093667e-20)
+Wilcoxon test with KMC / RND = WilcoxonResult(statistic=0.0, pvalue=1.658348408536204e-06)
+T-Paired test with KMC / STR = Ttest_relResult(statistic=29.29359578642337, pvalue=4.2934526528452206e-23)
+Wilcoxon test with KMC / STR = WilcoxonResult(statistic=0.0, pvalue=1.607505526400268e-06)
+T-Paired test with KMC / NBA = Ttest_relResult(statistic=0.14050381000626438, pvalue=0.8892333300002706)
+Wilcoxon test with KMC / NBA = WilcoxonResult(statistic=122.5, pvalue=0.8905854118965228)
+T-Paired test with KMC / 1R = Ttest_relResult(statistic=2.065116433122583, pvalue=0.04795344067137778)
+Wilcoxon test with KMC / 1R = WilcoxonResult(statistic=95.5, pvalue=0.06095728139793248)
+T-Paired test with KMC / UKN = Ttest_relResult(statistic=-0.6603712785728267, pvalue=0.514227220481028)
+Wilcoxon test with KMC / UKN = WilcoxonResult(statistic=81.0, pvalue=0.5494418073483158)
+T-Paired test with KMC / DKN = Ttest_relResult(statistic=-0.1350943077815101, pvalue=0.8934706332567267)
+Wilcoxon test with KMC / DKN = WilcoxonResult(statistic=102.5, pvalue=0.922456371257113)
+T-Paired test with KMC / DTR = Ttest_relResult(statistic=0.2784602430363654, pvalue=0.7826350296749631)
+Wilcoxon test with KMC / DTR = WilcoxonResult(statistic=94.5, pvalue=0.6797256913870091)
+T-Paired test with KMC / DFR = Ttest_relResult(statistic=0.2842181280103252, pvalue=0.7782627969762178)
+Wilcoxon test with KMC / DFR = WilcoxonResult(statistic=102.0, pvalue=0.9069858567586424)
+T-Paired test with KMC / GAC = Ttest_relResult(statistic=-0.4868852233416483, pvalue=0.6299995016749986)
+Wilcoxon test with KMC / GAC = WilcoxonResult(statistic=68.0, pvalue=0.6743615932194073)
+T-Paired test with GAC / 0R = Ttest_relResult(statistic=63.43795662652633, pvalue=1.147849038103442e-32)
+Wilcoxon test with GAC / 0R = WilcoxonResult(statistic=0.0, pvalue=9.91862736776599e-07)
+T-Paired test with GAC / RND = Ttest_relResult(statistic=27.3803004195321, pvalue=2.8494257581865714e-22)
+Wilcoxon test with GAC / RND = WilcoxonResult(statistic=0.0, pvalue=1.5891588884296042e-06)
+T-Paired test with GAC / STR = Ttest_relResult(statistic=27.873468254921914, pvalue=1.7293866652541407e-22)
+Wilcoxon test with GAC / STR = WilcoxonResult(statistic=0.0, pvalue=1.426206748762978e-06)
+T-Paired test with GAC / NBA = Ttest_relResult(statistic=0.6425039983535947, pvalue=0.525593394845842)
+Wilcoxon test with GAC / NBA = WilcoxonResult(statistic=48.0, pvalue=0.4838324097841302)
+T-Paired test with GAC / 1R = Ttest_relResult(statistic=2.9856328452013567, pvalue=0.00569972581393871)
+Wilcoxon test with GAC / 1R = WilcoxonResult(statistic=21.5, pvalue=0.004188576767034388)
+T-Paired test with GAC / UKN = Ttest_relResult(statistic=-0.16626898853693184, pvalue=0.8690991006131836)
+Wilcoxon test with GAC / UKN = WilcoxonResult(statistic=58.0, pvalue=0.9062058741352165)
+T-Paired test with GAC / DKN = Ttest_relResult(statistic=0.3378952919862257, pvalue=0.7378759697181805)
+Wilcoxon test with GAC / DKN = WilcoxonResult(statistic=67.0, pvalue=0.6348927284582411)
+T-Paired test with GAC / DTR = Ttest_relResult(statistic=0.7957309676805121, pvalue=0.43265388837252683)
+Wilcoxon test with GAC / DTR = WilcoxonResult(statistic=53.5, pvalue=0.4388772204158913)
+T-Paired test with GAC / DFR = Ttest_relResult(statistic=0.7235092977779339, pvalue=0.47516295559604227)
+Wilcoxon test with GAC / DFR = WilcoxonResult(statistic=87.0, pvalue=0.47399038827546125)
+T-Paired test with GAC / KMC = Ttest_relResult(statistic=0.4868852233416483, pvalue=0.6299995016749986)
+Wilcoxon test with GAC / KMC = WilcoxonResult(statistic=68.0, pvalue=0.6743615932194073)
+
+Paired test in the Wine dataset:
+
+T-Paired test with 0R / RND = Ttest_relResult(statistic=2.7839801443070957, pvalue=0.009354805634631926)
+Wilcoxon test with 0R / RND = WilcoxonResult(statistic=48.0, pvalue=0.005969468287236221)
+T-Paired test with 0R / STR = Ttest_relResult(statistic=1.8784607632846095, pvalue=0.07040530936670862)
+Wilcoxon test with 0R / STR = WilcoxonResult(statistic=75.0, pvalue=0.05450216200468683)
+T-Paired test with 0R / NBA = Ttest_relResult(statistic=-71.16802286309786, pvalue=4.17554252923788e-34)
+Wilcoxon test with 0R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.0914485944641105e-06)
+T-Paired test with 0R / 1R = Ttest_relResult(statistic=-7.571164287869064, pvalue=2.399006355346635e-08)
+Wilcoxon test with 0R / 1R = WilcoxonResult(statistic=7.0, pvalue=7.600876430179531e-06)
+T-Paired test with 0R / UKN = Ttest_relResult(statistic=-75.43332669743872, pvalue=7.788508584431213e-35)
+Wilcoxon test with 0R / UKN = WilcoxonResult(statistic=0.0, pvalue=1.2276318134869063e-06)
+T-Paired test with 0R / DKN = Ttest_relResult(statistic=-76.36226872047422, pvalue=5.470793405652602e-35)
+Wilcoxon test with 0R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.2640298823827336e-06)
+T-Paired test with 0R / DTR = Ttest_relResult(statistic=-35.63305831562891, pvalue=1.6998204933429369e-25)
+Wilcoxon test with 0R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.6249951586519442e-06)
+T-Paired test with 0R / DFR = Ttest_relResult(statistic=-74.27764108938413, pvalue=1.2160036814779122e-34)
+Wilcoxon test with 0R / DFR = WilcoxonResult(statistic=0.0, pvalue=1.183375142540495e-06)
+T-Paired test with 0R / KMC = Ttest_relResult(statistic=-75.84972588002516, pvalue=6.644476726883067e-35)
+Wilcoxon test with 0R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.287660385506418e-06)
+T-Paired test with 0R / GAC = Ttest_relResult(statistic=-51.171171007133225, pvalue=5.532364202061948e-30)
+Wilcoxon test with 0R / GAC = WilcoxonResult(statistic=0.0, pvalue=1.2657056201337281e-06)
+T-Paired test with RND / 0R = Ttest_relResult(statistic=-2.7839801443070957, pvalue=0.009354805634631926)
+Wilcoxon test with RND / 0R = WilcoxonResult(statistic=48.0, pvalue=0.005969468287236221)
+T-Paired test with RND / STR = Ttest_relResult(statistic=-0.6307630034179559, pvalue=0.533135379120163)
+Wilcoxon test with RND / STR = WilcoxonResult(statistic=157.0, pvalue=0.6377473383885983)
+T-Paired test with RND / NBA = Ttest_relResult(statistic=-35.26982006843029, pvalue=2.2731703810245056e-25)
+Wilcoxon test with RND / NBA = WilcoxonResult(statistic=0.0, pvalue=1.6678313975036149e-06)
+T-Paired test with RND / 1R = Ttest_relResult(statistic=-7.978080201445962, pvalue=8.469774132268886e-09)
+Wilcoxon test with RND / 1R = WilcoxonResult(statistic=13.0, pvalue=9.526913710565349e-06)
+T-Paired test with RND / UKN = Ttest_relResult(statistic=-32.78880754390568, pvalue=1.792734056431362e-24)
+Wilcoxon test with RND / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6374363013972621e-06)
+T-Paired test with RND / DKN = Ttest_relResult(statistic=-30.68184967393873, pvalue=1.167607045933012e-23)
+Wilcoxon test with RND / DKN = WilcoxonResult(statistic=0.0, pvalue=1.6965526182776899e-06)
+T-Paired test with RND / DTR = Ttest_relResult(statistic=-25.042570900020003, pvalue=3.424384252977709e-21)
+Wilcoxon test with RND / DTR = WilcoxonResult(statistic=0.0, pvalue=1.6997692098403253e-06)
+T-Paired test with RND / DFR = Ttest_relResult(statistic=-36.088445997080726, pvalue=1.185439534116292e-25)
+Wilcoxon test with RND / DFR = WilcoxonResult(statistic=0.0, pvalue=1.6731192718520786e-06)
+T-Paired test with RND / KMC = Ttest_relResult(statistic=-34.30983999323057, pvalue=4.969480020590499e-25)
+Wilcoxon test with RND / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7040659206732472e-06)
+T-Paired test with RND / GAC = Ttest_relResult(statistic=-27.563575771285738, pvalue=2.3645221606603964e-22)
+Wilcoxon test with RND / GAC = WilcoxonResult(statistic=0.0, pvalue=1.6353572673162812e-06)
+T-Paired test with STR / 0R = Ttest_relResult(statistic=-1.8784607632846095, pvalue=0.07040530936670862)
+Wilcoxon test with STR / 0R = WilcoxonResult(statistic=75.0, pvalue=0.05450216200468683)
+T-Paired test with STR / RND = Ttest_relResult(statistic=0.6307630034179559, pvalue=0.533135379120163)
+Wilcoxon test with STR / RND = WilcoxonResult(statistic=157.0, pvalue=0.6377473383885983)
+T-Paired test with STR / NBA = Ttest_relResult(statistic=-28.25319602691071, pvalue=1.183939861938047e-22)
+Wilcoxon test with STR / NBA = WilcoxonResult(statistic=0.0, pvalue=1.6678313975036149e-06)
+T-Paired test with STR / 1R = Ttest_relResult(statistic=-6.4815197235406865, pvalue=4.2893975792583787e-07)
+Wilcoxon test with STR / 1R = WilcoxonResult(statistic=23.0, pvalue=3.994708898278606e-05)
+T-Paired test with STR / UKN = Ttest_relResult(statistic=-32.53346245868932, pvalue=2.235931644566892e-24)
+Wilcoxon test with STR / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6604518364769249e-06)
+T-Paired test with STR / DKN = Ttest_relResult(statistic=-30.295311748982925, pvalue=1.6683929401714495e-23)
+Wilcoxon test with STR / DKN = WilcoxonResult(statistic=0.0, pvalue=1.6858673414334802e-06)
+T-Paired test with STR / DTR = Ttest_relResult(statistic=-19.3843145828462, pvalue=3.8247453751583755e-18)
+Wilcoxon test with STR / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7105279932400777e-06)
+T-Paired test with STR / DFR = Ttest_relResult(statistic=-31.7831128771436, pvalue=4.320963014726083e-24)
+Wilcoxon test with STR / DFR = WilcoxonResult(statistic=0.0, pvalue=1.6678313975036149e-06)
+T-Paired test with STR / KMC = Ttest_relResult(statistic=-29.675282038253098, pvalue=2.984406440713668e-23)
+Wilcoxon test with STR / KMC = WilcoxonResult(statistic=0.0, pvalue=1.6933411124690754e-06)
+T-Paired test with STR / GAC = Ttest_relResult(statistic=-30.745514685412903, pvalue=1.1013962889719523e-23)
+Wilcoxon test with STR / GAC = WilcoxonResult(statistic=0.0, pvalue=1.6773596492011899e-06)
+T-Paired test with NBA / 0R = Ttest_relResult(statistic=71.16802286309786, pvalue=4.17554252923788e-34)
+Wilcoxon test with NBA / 0R = WilcoxonResult(statistic=0.0, pvalue=1.0914485944641105e-06)
+T-Paired test with NBA / RND = Ttest_relResult(statistic=35.26982006843029, pvalue=2.2731703810245056e-25)
+Wilcoxon test with NBA / RND = WilcoxonResult(statistic=0.0, pvalue=1.6678313975036149e-06)
+T-Paired test with NBA / STR = Ttest_relResult(statistic=28.25319602691071, pvalue=1.183939861938047e-22)
+Wilcoxon test with NBA / STR = WilcoxonResult(statistic=0.0, pvalue=1.6678313975036149e-06)
+T-Paired test with NBA / 1R = Ttest_relResult(statistic=28.347685987260256, pvalue=1.0782038032288545e-22)
+Wilcoxon test with NBA / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6239619729740938e-06)
+T-Paired test with NBA / UKN = Ttest_relResult(statistic=1.2030920981263773, pvalue=0.23867092636309045)
+Wilcoxon test with NBA / UKN = WilcoxonResult(statistic=51.5, pvalue=0.2168862419644626)
+T-Paired test with NBA / DKN = Ttest_relResult(statistic=0.4136932492932812, pvalue=0.6821422936536758)
+Wilcoxon test with NBA / DKN = WilcoxonResult(statistic=57.0, pvalue=0.5496994749123905)
+T-Paired test with NBA / DTR = Ttest_relResult(statistic=4.621869158928126, pvalue=7.247174229651171e-05)
+Wilcoxon test with NBA / DTR = WilcoxonResult(statistic=28.0, pvalue=0.0007715676514354569)
+T-Paired test with NBA / DFR = Ttest_relResult(statistic=0.0, pvalue=1.0)
+Wilcoxon test with NBA / DFR = WilcoxonResult(statistic=76.5, pvalue=1.0)
+T-Paired test with NBA / KMC = Ttest_relResult(statistic=0.845083432075867, pvalue=0.4049827703175315)
+Wilcoxon test with NBA / KMC = WilcoxonResult(statistic=46.0, pvalue=0.23691723023338096)
+T-Paired test with NBA / GAC = Ttest_relResult(statistic=1.1469791945278875, pvalue=0.2607655507227386)
+Wilcoxon test with NBA / GAC = WilcoxonResult(statistic=37.5, pvalue=0.3356750984804996)
+T-Paired test with 1R / 0R = Ttest_relResult(statistic=7.571164287869064, pvalue=2.399006355346635e-08)
+Wilcoxon test with 1R / 0R = WilcoxonResult(statistic=7.0, pvalue=7.600876430179531e-06)
+T-Paired test with 1R / RND = Ttest_relResult(statistic=7.978080201445962, pvalue=8.469774132268886e-09)
+Wilcoxon test with 1R / RND = WilcoxonResult(statistic=13.0, pvalue=9.526913710565349e-06)
+T-Paired test with 1R / STR = Ttest_relResult(statistic=6.4815197235406865, pvalue=4.2893975792583787e-07)
+Wilcoxon test with 1R / STR = WilcoxonResult(statistic=23.0, pvalue=3.994708898278606e-05)
+T-Paired test with 1R / NBA = Ttest_relResult(statistic=-28.347685987260256, pvalue=1.0782038032288545e-22)
+Wilcoxon test with 1R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.6239619729740938e-06)
+T-Paired test with 1R / UKN = Ttest_relResult(statistic=-23.267066203589504, pvalue=2.619579549264534e-20)
+Wilcoxon test with 1R / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6805458207281375e-06)
+T-Paired test with 1R / DKN = Ttest_relResult(statistic=-25.993276446361303, pvalue=1.2152802006986223e-21)
+Wilcoxon test with 1R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.647864634710871e-06)
+T-Paired test with 1R / DTR = Ttest_relResult(statistic=-16.716386095260926, pvalue=1.9899491399357304e-16)
+Wilcoxon test with 1R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7029908934686465e-06)
+T-Paired test with 1R / DFR = Ttest_relResult(statistic=-27.590544475398985, pvalue=2.300724123411242e-22)
+Wilcoxon test with 1R / DFR = WilcoxonResult(statistic=0.0, pvalue=1.6405589938543058e-06)
+T-Paired test with 1R / KMC = Ttest_relResult(statistic=-27.127587424508587, pvalue=3.692277077072913e-22)
+Wilcoxon test with 1R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.6489105134644262e-06)
+T-Paired test with 1R / GAC = Ttest_relResult(statistic=-20.132562374953782, pvalue=1.37256905998467e-18)
+Wilcoxon test with 1R / GAC = WilcoxonResult(statistic=0.0, pvalue=1.6615043860971686e-06)
+T-Paired test with UKN / 0R = Ttest_relResult(statistic=75.43332669743872, pvalue=7.788508584431213e-35)
+Wilcoxon test with UKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.2276318134869063e-06)
+T-Paired test with UKN / RND = Ttest_relResult(statistic=32.78880754390568, pvalue=1.792734056431362e-24)
+Wilcoxon test with UKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.6374363013972621e-06)
+T-Paired test with UKN / STR = Ttest_relResult(statistic=32.53346245868932, pvalue=2.235931644566892e-24)
+Wilcoxon test with UKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.6604518364769249e-06)
+T-Paired test with UKN / NBA = Ttest_relResult(statistic=-1.2030920981263773, pvalue=0.23867092636309045)
+Wilcoxon test with UKN / NBA = WilcoxonResult(statistic=51.5, pvalue=0.2168862419644626)
+T-Paired test with UKN / 1R = Ttest_relResult(statistic=23.267066203589504, pvalue=2.619579549264534e-20)
+Wilcoxon test with UKN / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6805458207281375e-06)
+T-Paired test with UKN / DKN = Ttest_relResult(statistic=-0.7596264903065457, pvalue=0.4536090561020386)
+Wilcoxon test with UKN / DKN = WilcoxonResult(statistic=109.0, pvalue=0.5512556812735369)
+T-Paired test with UKN / DTR = Ttest_relResult(statistic=3.6402917963140387, pvalue=0.0010521367463234715)
+Wilcoxon test with UKN / DTR = WilcoxonResult(statistic=52.0, pvalue=0.004720885292134566)
+T-Paired test with UKN / DFR = Ttest_relResult(statistic=-1.2287037655725175, pvalue=0.22906084579799027)
+Wilcoxon test with UKN / DFR = WilcoxonResult(statistic=55.0, pvalue=0.15952436155259853)
+T-Paired test with UKN / KMC = Ttest_relResult(statistic=-0.39169618319950267, pvalue=0.6981462811691376)
+Wilcoxon test with UKN / KMC = WilcoxonResult(statistic=101.0, pvalue=0.8750429169129073)
+T-Paired test with UKN / GAC = Ttest_relResult(statistic=0.2097630119059994, pvalue=0.8353193483603757)
+Wilcoxon test with UKN / GAC = WilcoxonResult(statistic=44.0, pvalue=0.9119780165048018)
+T-Paired test with DKN / 0R = Ttest_relResult(statistic=76.36226872047422, pvalue=5.470793405652602e-35)
+Wilcoxon test with DKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.2640298823827336e-06)
+T-Paired test with DKN / RND = Ttest_relResult(statistic=30.68184967393873, pvalue=1.167607045933012e-23)
+Wilcoxon test with DKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.6965526182776899e-06)
+T-Paired test with DKN / STR = Ttest_relResult(statistic=30.295311748982925, pvalue=1.6683929401714495e-23)
+Wilcoxon test with DKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.6858673414334802e-06)
+T-Paired test with DKN / NBA = Ttest_relResult(statistic=-0.4136932492932812, pvalue=0.6821422936536758)
+Wilcoxon test with DKN / NBA = WilcoxonResult(statistic=57.0, pvalue=0.5496994749123905)
+T-Paired test with DKN / 1R = Ttest_relResult(statistic=25.993276446361303, pvalue=1.2152802006986223e-21)
+Wilcoxon test with DKN / 1R = WilcoxonResult(statistic=0.0, pvalue=1.647864634710871e-06)
+T-Paired test with DKN / UKN = Ttest_relResult(statistic=0.7596264903065457, pvalue=0.4536090561020386)
+Wilcoxon test with DKN / UKN = WilcoxonResult(statistic=109.0, pvalue=0.5512556812735369)
+T-Paired test with DKN / DTR = Ttest_relResult(statistic=4.395503728961272, pvalue=0.00013547877296490274)
+Wilcoxon test with DKN / DTR = WilcoxonResult(statistic=32.5, pvalue=0.00025157155876296886)
+T-Paired test with DKN / DFR = Ttest_relResult(statistic=-0.4899318550485997, pvalue=0.6278681711946358)
+Wilcoxon test with DKN / DFR = WilcoxonResult(statistic=39.0, pvalue=0.6318060587079461)
+T-Paired test with DKN / KMC = Ttest_relResult(statistic=0.4112938596487748, pvalue=0.683880844521277)
+Wilcoxon test with DKN / KMC = WilcoxonResult(statistic=74.5, pvalue=0.616025139252391)
+T-Paired test with DKN / GAC = Ttest_relResult(statistic=0.7940177565951431, pvalue=0.43363473624445414)
+Wilcoxon test with DKN / GAC = WilcoxonResult(statistic=112.5, pvalue=0.6337206789932646)
+T-Paired test with DTR / 0R = Ttest_relResult(statistic=35.63305831562891, pvalue=1.6998204933429369e-25)
+Wilcoxon test with DTR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6249951586519442e-06)
+T-Paired test with DTR / RND = Ttest_relResult(statistic=25.042570900020003, pvalue=3.424384252977709e-21)
+Wilcoxon test with DTR / RND = WilcoxonResult(statistic=0.0, pvalue=1.6997692098403253e-06)
+T-Paired test with DTR / STR = Ttest_relResult(statistic=19.3843145828462, pvalue=3.8247453751583755e-18)
+Wilcoxon test with DTR / STR = WilcoxonResult(statistic=0.0, pvalue=1.7105279932400777e-06)
+T-Paired test with DTR / NBA = Ttest_relResult(statistic=-4.621869158928126, pvalue=7.247174229651171e-05)
+Wilcoxon test with DTR / NBA = WilcoxonResult(statistic=28.0, pvalue=0.0007715676514354569)
+T-Paired test with DTR / 1R = Ttest_relResult(statistic=16.716386095260926, pvalue=1.9899491399357304e-16)
+Wilcoxon test with DTR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7029908934686465e-06)
+T-Paired test with DTR / UKN = Ttest_relResult(statistic=-3.6402917963140387, pvalue=0.0010521367463234715)
+Wilcoxon test with DTR / UKN = WilcoxonResult(statistic=52.0, pvalue=0.004720885292134566)
+T-Paired test with DTR / DKN = Ttest_relResult(statistic=-4.395503728961272, pvalue=0.00013547877296490274)
+Wilcoxon test with DTR / DKN = WilcoxonResult(statistic=32.5, pvalue=0.00025157155876296886)
+T-Paired test with DTR / DFR = Ttest_relResult(statistic=-4.398756434462132, pvalue=0.00013426951083825514)
+Wilcoxon test with DTR / DFR = WilcoxonResult(statistic=25.0, pvalue=0.00019499659963461487)
+T-Paired test with DTR / KMC = Ttest_relResult(statistic=-3.980476628000278, pvalue=0.00042183516755807865)
+Wilcoxon test with DTR / KMC = WilcoxonResult(statistic=16.5, pvalue=0.0007939794919755444)
+T-Paired test with DTR / GAC = Ttest_relResult(statistic=-3.062061764655159, pvalue=0.004707421744108504)
+Wilcoxon test with DTR / GAC = WilcoxonResult(statistic=37.5, pvalue=0.011583743978956893)
+T-Paired test with DFR / 0R = Ttest_relResult(statistic=74.27764108938413, pvalue=1.2160036814779122e-34)
+Wilcoxon test with DFR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.183375142540495e-06)
+T-Paired test with DFR / RND = Ttest_relResult(statistic=36.088445997080726, pvalue=1.185439534116292e-25)
+Wilcoxon test with DFR / RND = WilcoxonResult(statistic=0.0, pvalue=1.6731192718520786e-06)
+T-Paired test with DFR / STR = Ttest_relResult(statistic=31.7831128771436, pvalue=4.320963014726083e-24)
+Wilcoxon test with DFR / STR = WilcoxonResult(statistic=0.0, pvalue=1.6678313975036149e-06)
+T-Paired test with DFR / NBA = Ttest_relResult(statistic=0.0, pvalue=1.0)
+Wilcoxon test with DFR / NBA = WilcoxonResult(statistic=76.5, pvalue=1.0)
+T-Paired test with DFR / 1R = Ttest_relResult(statistic=27.590544475398985, pvalue=2.300724123411242e-22)
+Wilcoxon test with DFR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6405589938543058e-06)
+T-Paired test with DFR / UKN = Ttest_relResult(statistic=1.2287037655725175, pvalue=0.22906084579799027)
+Wilcoxon test with DFR / UKN = WilcoxonResult(statistic=55.0, pvalue=0.15952436155259853)
+T-Paired test with DFR / DKN = Ttest_relResult(statistic=0.4899318550485997, pvalue=0.6278681711946358)
+Wilcoxon test with DFR / DKN = WilcoxonResult(statistic=39.0, pvalue=0.6318060587079461)
+T-Paired test with DFR / DTR = Ttest_relResult(statistic=4.398756434462132, pvalue=0.00013426951083825514)
+Wilcoxon test with DFR / DTR = WilcoxonResult(statistic=25.0, pvalue=0.00019499659963461487)
+T-Paired test with DFR / KMC = Ttest_relResult(statistic=0.8095576346311866, pvalue=0.4247874354885621)
+Wilcoxon test with DFR / KMC = WilcoxonResult(statistic=60.0, pvalue=0.24507388408317632)
+T-Paired test with DFR / GAC = Ttest_relResult(statistic=1.1051243854447184, pvalue=0.27819038360378745)
+Wilcoxon test with DFR / GAC = WilcoxonResult(statistic=69.0, pvalue=0.2721126399197825)
+T-Paired test with KMC / 0R = Ttest_relResult(statistic=75.84972588002516, pvalue=6.644476726883067e-35)
+Wilcoxon test with KMC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.287660385506418e-06)
+T-Paired test with KMC / RND = Ttest_relResult(statistic=34.30983999323057, pvalue=4.969480020590499e-25)
+Wilcoxon test with KMC / RND = WilcoxonResult(statistic=0.0, pvalue=1.7040659206732472e-06)
+T-Paired test with KMC / STR = Ttest_relResult(statistic=29.675282038253098, pvalue=2.984406440713668e-23)
+Wilcoxon test with KMC / STR = WilcoxonResult(statistic=0.0, pvalue=1.6933411124690754e-06)
+T-Paired test with KMC / NBA = Ttest_relResult(statistic=-0.845083432075867, pvalue=0.4049827703175315)
+Wilcoxon test with KMC / NBA = WilcoxonResult(statistic=46.0, pvalue=0.23691723023338096)
+T-Paired test with KMC / 1R = Ttest_relResult(statistic=27.127587424508587, pvalue=3.692277077072913e-22)
+Wilcoxon test with KMC / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6489105134644262e-06)
+T-Paired test with KMC / UKN = Ttest_relResult(statistic=0.39169618319950267, pvalue=0.6981462811691376)
+Wilcoxon test with KMC / UKN = WilcoxonResult(statistic=101.0, pvalue=0.8750429169129073)
+T-Paired test with KMC / DKN = Ttest_relResult(statistic=-0.4112938596487748, pvalue=0.683880844521277)
+Wilcoxon test with KMC / DKN = WilcoxonResult(statistic=74.5, pvalue=0.616025139252391)
+T-Paired test with KMC / DTR = Ttest_relResult(statistic=3.980476628000278, pvalue=0.00042183516755807865)
+Wilcoxon test with KMC / DTR = WilcoxonResult(statistic=16.5, pvalue=0.0007939794919755444)
+T-Paired test with KMC / DFR = Ttest_relResult(statistic=-0.8095576346311866, pvalue=0.4247874354885621)
+Wilcoxon test with KMC / DFR = WilcoxonResult(statistic=60.0, pvalue=0.24507388408317632)
+T-Paired test with KMC / GAC = Ttest_relResult(statistic=0.4791699130287032, pvalue=0.6354113833553838)
+Wilcoxon test with KMC / GAC = WilcoxonResult(statistic=80.5, pvalue=0.8240981682459778)
+T-Paired test with GAC / 0R = Ttest_relResult(statistic=51.171171007133225, pvalue=5.532364202061948e-30)
+Wilcoxon test with GAC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.2657056201337281e-06)
+T-Paired test with GAC / RND = Ttest_relResult(statistic=27.563575771285738, pvalue=2.3645221606603964e-22)
+Wilcoxon test with GAC / RND = WilcoxonResult(statistic=0.0, pvalue=1.6353572673162812e-06)
+T-Paired test with GAC / STR = Ttest_relResult(statistic=30.745514685412903, pvalue=1.1013962889719523e-23)
+Wilcoxon test with GAC / STR = WilcoxonResult(statistic=0.0, pvalue=1.6773596492011899e-06)
+T-Paired test with GAC / NBA = Ttest_relResult(statistic=-1.1469791945278875, pvalue=0.2607655507227386)
+Wilcoxon test with GAC / NBA = WilcoxonResult(statistic=37.5, pvalue=0.3356750984804996)
+T-Paired test with GAC / 1R = Ttest_relResult(statistic=20.132562374953782, pvalue=1.37256905998467e-18)
+Wilcoxon test with GAC / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6615043860971686e-06)
+T-Paired test with GAC / UKN = Ttest_relResult(statistic=-0.2097630119059994, pvalue=0.8353193483603757)
+Wilcoxon test with GAC / UKN = WilcoxonResult(statistic=44.0, pvalue=0.9119780165048018)
+T-Paired test with GAC / DKN = Ttest_relResult(statistic=-0.7940177565951431, pvalue=0.43363473624445414)
+Wilcoxon test with GAC / DKN = WilcoxonResult(statistic=112.5, pvalue=0.6337206789932646)
+T-Paired test with GAC / DTR = Ttest_relResult(statistic=3.062061764655159, pvalue=0.004707421744108504)
+Wilcoxon test with GAC / DTR = WilcoxonResult(statistic=37.5, pvalue=0.011583743978956893)
+T-Paired test with GAC / DFR = Ttest_relResult(statistic=-1.1051243854447184, pvalue=0.27819038360378745)
+Wilcoxon test with GAC / DFR = WilcoxonResult(statistic=69.0, pvalue=0.2721126399197825)
+T-Paired test with GAC / KMC = Ttest_relResult(statistic=-0.4791699130287032, pvalue=0.6354113833553838)
+Wilcoxon test with GAC / KMC = WilcoxonResult(statistic=80.5, pvalue=0.8240981682459778)
+
+Paired test in the Breast Cancer dataset:
+
+T-Paired test with 0R / RND = Ttest_relResult(statistic=9.29613509046609, pvalue=3.3654380856463e-10)
+Wilcoxon test with 0R / RND = WilcoxonResult(statistic=0.0, pvalue=3.735189509490159e-06)
+T-Paired test with 0R / STR = Ttest_relResult(statistic=9.018535793717202, pvalue=6.513797503740371e-10)
+Wilcoxon test with 0R / STR = WilcoxonResult(statistic=0.0, pvalue=2.5032614719211614e-06)
+T-Paired test with 0R / NBA = Ttest_relResult(statistic=-54.956926516166924, pvalue=7.126595056649885e-31)
+Wilcoxon test with 0R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.6426435524004428e-06)
+T-Paired test with 0R / 1R = Ttest_relResult(statistic=1.4964544667907154, pvalue=0.14534035221469865)
+Wilcoxon test with 0R / 1R = WilcoxonResult(statistic=144.0, pvalue=0.1786403624563363)
+T-Paired test with 0R / UKN = Ttest_relResult(statistic=-79.21762969982466, pvalue=1.8959983791166334e-35)
+Wilcoxon test with 0R / UKN = WilcoxonResult(statistic=0.0, pvalue=1.5410884614417123e-06)
+T-Paired test with 0R / DKN = Ttest_relResult(statistic=-79.57287305332021, pvalue=1.666230350450962e-35)
+Wilcoxon test with 0R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.5932207142442858e-06)
+T-Paired test with 0R / DTR = Ttest_relResult(statistic=-40.64125745741574, pvalue=4.033207363915277e-27)
+Wilcoxon test with 0R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.6405589938543058e-06)
+T-Paired test with 0R / DFR = Ttest_relResult(statistic=-58.16665664336199, pvalue=1.3938211585486593e-31)
+Wilcoxon test with 0R / DFR = WilcoxonResult(statistic=0.0, pvalue=1.6699448692230351e-06)
+T-Paired test with 0R / KMC = Ttest_relResult(statistic=-64.28788080436927, pvalue=7.823702533733404e-33)
+Wilcoxon test with 0R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.5029324681011077e-06)
+T-Paired test with 0R / GAC = Ttest_relResult(statistic=-64.18681783407723, pvalue=8.186404045535097e-33)
+Wilcoxon test with 0R / GAC = WilcoxonResult(statistic=0.0, pvalue=1.6384766464748476e-06)
+T-Paired test with RND / 0R = Ttest_relResult(statistic=-9.29613509046609, pvalue=3.3654380856463e-10)
+Wilcoxon test with RND / 0R = WilcoxonResult(statistic=0.0, pvalue=3.735189509490159e-06)
+T-Paired test with RND / STR = Ttest_relResult(statistic=-0.9068563692626538, pvalue=0.37195675676455764)
+Wilcoxon test with RND / STR = WilcoxonResult(statistic=142.0, pvalue=0.25811873455493606)
+T-Paired test with RND / NBA = Ttest_relResult(statistic=-30.43255996084149, pvalue=1.469094589128695e-23)
+Wilcoxon test with RND / NBA = WilcoxonResult(statistic=0.0, pvalue=1.711606992411454e-06)
+T-Paired test with RND / 1R = Ttest_relResult(statistic=-5.09427422973717, pvalue=1.9518339491681534e-05)
+Wilcoxon test with RND / 1R = WilcoxonResult(statistic=42.0, pvalue=8.804312950395511e-05)
+T-Paired test with RND / UKN = Ttest_relResult(statistic=-35.830518487746254, pvalue=1.453112420652279e-25)
+Wilcoxon test with RND / UKN = WilcoxonResult(statistic=0.0, pvalue=1.7137666960733877e-06)
+T-Paired test with RND / DKN = Ttest_relResult(statistic=-34.51447043937651, pvalue=4.199043842740227e-25)
+Wilcoxon test with RND / DKN = WilcoxonResult(statistic=0.0, pvalue=1.711606992411454e-06)
+T-Paired test with RND / DTR = Ttest_relResult(statistic=-31.497922622169874, pvalue=5.571967312937196e-24)
+Wilcoxon test with RND / DTR = WilcoxonResult(statistic=0.0, pvalue=1.711606992411454e-06)
+T-Paired test with RND / DFR = Ttest_relResult(statistic=-33.069306024312034, pvalue=1.409081788290315e-24)
+Wilcoxon test with RND / DFR = WilcoxonResult(statistic=0.0, pvalue=1.7191759138770554e-06)
+T-Paired test with RND / KMC = Ttest_relResult(statistic=-31.007358213860872, pvalue=8.67337726203183e-24)
+Wilcoxon test with RND / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with RND / GAC = Ttest_relResult(statistic=-32.41670914851465, pvalue=2.4749434697220947e-24)
+Wilcoxon test with RND / GAC = WilcoxonResult(statistic=0.0, pvalue=1.712686559944352e-06)
+T-Paired test with STR / 0R = Ttest_relResult(statistic=-9.018535793717202, pvalue=6.513797503740371e-10)
+Wilcoxon test with STR / 0R = WilcoxonResult(statistic=0.0, pvalue=2.5032614719211614e-06)
+T-Paired test with STR / RND = Ttest_relResult(statistic=0.9068563692626538, pvalue=0.37195675676455764)
+Wilcoxon test with STR / RND = WilcoxonResult(statistic=142.0, pvalue=0.25811873455493606)
+T-Paired test with STR / NBA = Ttest_relResult(statistic=-33.63681239623377, pvalue=8.707698509207611e-25)
+Wilcoxon test with STR / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7062176754796548e-06)
+T-Paired test with STR / 1R = Ttest_relResult(statistic=-4.511204155659708, pvalue=9.843889801524263e-05)
+Wilcoxon test with STR / 1R = WilcoxonResult(statistic=41.5, pvalue=0.00023391664423057037)
+T-Paired test with STR / UKN = Ttest_relResult(statistic=-36.55162816033482, pvalue=8.252880303309851e-26)
+Wilcoxon test with STR / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6965526182776899e-06)
+T-Paired test with STR / DKN = Ttest_relResult(statistic=-35.404042622374924, pvalue=2.0410051495771918e-25)
+Wilcoxon test with STR / DKN = WilcoxonResult(statistic=0.0, pvalue=1.678421145178411e-06)
+T-Paired test with STR / DTR = Ttest_relResult(statistic=-27.510908772159432, pvalue=2.4944376921991494e-22)
+Wilcoxon test with STR / DTR = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with STR / DFR = Ttest_relResult(statistic=-36.79987843873508, pvalue=6.809209921650588e-26)
+Wilcoxon test with STR / DFR = WilcoxonResult(statistic=0.0, pvalue=1.6657201609790694e-06)
+T-Paired test with STR / KMC = Ttest_relResult(statistic=-34.24750038959308, pvalue=5.23216740847981e-25)
+Wilcoxon test with STR / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7062176754796548e-06)
+T-Paired test with STR / GAC = Ttest_relResult(statistic=-39.57956252811805, pvalue=8.576782248105623e-27)
+Wilcoxon test with STR / GAC = WilcoxonResult(statistic=0.0, pvalue=1.6912029309011076e-06)
+T-Paired test with NBA / 0R = Ttest_relResult(statistic=54.956926516166924, pvalue=7.126595056649885e-31)
+Wilcoxon test with NBA / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6426435524004428e-06)
+T-Paired test with NBA / RND = Ttest_relResult(statistic=30.43255996084149, pvalue=1.469094589128695e-23)
+Wilcoxon test with NBA / RND = WilcoxonResult(statistic=0.0, pvalue=1.711606992411454e-06)
+T-Paired test with NBA / STR = Ttest_relResult(statistic=33.63681239623377, pvalue=8.707698509207611e-25)
+Wilcoxon test with NBA / STR = WilcoxonResult(statistic=0.0, pvalue=1.7062176754796548e-06)
+T-Paired test with NBA / 1R = Ttest_relResult(statistic=22.911199249697177, pvalue=4.005512559197182e-20)
+Wilcoxon test with NBA / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7159286750586906e-06)
+T-Paired test with NBA / UKN = Ttest_relResult(statistic=-4.945297595538665, pvalue=2.9531850365058895e-05)
+Wilcoxon test with NBA / UKN = WilcoxonResult(statistic=27.5, pvalue=9.815754641404258e-05)
+T-Paired test with NBA / DKN = Ttest_relResult(statistic=-4.664827034810739, pvalue=6.433844985717435e-05)
+Wilcoxon test with NBA / DKN = WilcoxonResult(statistic=26.0, pvalue=0.00023327004869452893)
+T-Paired test with NBA / DTR = Ttest_relResult(statistic=1.258977144534122, pvalue=0.2180788891205653)
+Wilcoxon test with NBA / DTR = WilcoxonResult(statistic=121.0, pvalue=0.1630928011046947)
+T-Paired test with NBA / DFR = Ttest_relResult(statistic=-5.050569033338187, pvalue=2.203977806631015e-05)
+Wilcoxon test with NBA / DFR = WilcoxonResult(statistic=17.5, pvalue=0.00023330215734741275)
+T-Paired test with NBA / KMC = Ttest_relResult(statistic=-2.480888323470164, pvalue=0.01915123760270048)
+Wilcoxon test with NBA / KMC = WilcoxonResult(statistic=96.5, pvalue=0.025283161368514162)
+T-Paired test with NBA / GAC = Ttest_relResult(statistic=-2.888297368062709, pvalue=0.007252197273894508)
+Wilcoxon test with NBA / GAC = WilcoxonResult(statistic=96.0, pvalue=0.014114161065566847)
+T-Paired test with 1R / 0R = Ttest_relResult(statistic=-1.4964544667907154, pvalue=0.14534035221469865)
+Wilcoxon test with 1R / 0R = WilcoxonResult(statistic=144.0, pvalue=0.1786403624563363)
+T-Paired test with 1R / RND = Ttest_relResult(statistic=5.09427422973717, pvalue=1.9518339491681534e-05)
+Wilcoxon test with 1R / RND = WilcoxonResult(statistic=42.0, pvalue=8.804312950395511e-05)
+T-Paired test with 1R / STR = Ttest_relResult(statistic=4.511204155659708, pvalue=9.843889801524263e-05)
+Wilcoxon test with 1R / STR = WilcoxonResult(statistic=41.5, pvalue=0.00023391664423057037)
+T-Paired test with 1R / NBA = Ttest_relResult(statistic=-22.911199249697177, pvalue=4.005512559197182e-20)
+Wilcoxon test with 1R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7159286750586906e-06)
+T-Paired test with 1R / UKN = Ttest_relResult(statistic=-22.866947882915518, pvalue=4.224458507108972e-20)
+Wilcoxon test with 1R / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6848019127233959e-06)
+T-Paired test with 1R / DKN = Ttest_relResult(statistic=-23.32536760825555, pvalue=2.4448922056368947e-20)
+Wilcoxon test with 1R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7202594665136766e-06)
+T-Paired test with 1R / DTR = Ttest_relResult(statistic=-18.977112598556275, pvalue=6.777644240803033e-18)
+Wilcoxon test with 1R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7062176754796548e-06)
+T-Paired test with 1R / DFR = Ttest_relResult(statistic=-25.42688175742795, pvalue=2.2431465040894122e-21)
+Wilcoxon test with 1R / DFR = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with 1R / KMC = Ttest_relResult(statistic=-21.766675772217567, pvalue=1.6358081735438933e-19)
+Wilcoxon test with 1R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with 1R / GAC = Ttest_relResult(statistic=-24.605691595909214, pvalue=5.5795126926041495e-21)
+Wilcoxon test with 1R / GAC = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with UKN / 0R = Ttest_relResult(statistic=79.21762969982466, pvalue=1.8959983791166334e-35)
+Wilcoxon test with UKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.5410884614417123e-06)
+T-Paired test with UKN / RND = Ttest_relResult(statistic=35.830518487746254, pvalue=1.453112420652279e-25)
+Wilcoxon test with UKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.7137666960733877e-06)
+T-Paired test with UKN / STR = Ttest_relResult(statistic=36.55162816033482, pvalue=8.252880303309851e-26)
+Wilcoxon test with UKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.6965526182776899e-06)
+T-Paired test with UKN / NBA = Ttest_relResult(statistic=4.945297595538665, pvalue=2.9531850365058895e-05)
+Wilcoxon test with UKN / NBA = WilcoxonResult(statistic=27.5, pvalue=9.815754641404258e-05)
+T-Paired test with UKN / 1R = Ttest_relResult(statistic=22.866947882915518, pvalue=4.224458507108972e-20)
+Wilcoxon test with UKN / 1R = WilcoxonResult(statistic=0.0, pvalue=1.6848019127233959e-06)
+T-Paired test with UKN / DKN = Ttest_relResult(statistic=-0.46402031885295286, pvalue=0.6460976492077933)
+Wilcoxon test with UKN / DKN = WilcoxonResult(statistic=133.5, pvalue=0.6355006167665084)
+T-Paired test with UKN / DTR = Ttest_relResult(statistic=5.325952701106519, pvalue=1.02535203307802e-05)
+Wilcoxon test with UKN / DTR = WilcoxonResult(statistic=27.0, pvalue=5.910128750064687e-05)
+T-Paired test with UKN / DFR = Ttest_relResult(statistic=0.3802429054645527, pvalue=0.7065359698676883)
+Wilcoxon test with UKN / DFR = WilcoxonResult(statistic=158.5, pvalue=0.6638945425649689)
+T-Paired test with UKN / KMC = Ttest_relResult(statistic=1.5234720414544962, pvalue=0.13847233758537647)
+Wilcoxon test with UKN / KMC = WilcoxonResult(statistic=98.0, pvalue=0.13568706590307306)
+T-Paired test with UKN / GAC = Ttest_relResult(statistic=2.1253985400755253, pvalue=0.042195354509156194)
+Wilcoxon test with UKN / GAC = WilcoxonResult(statistic=65.0, pvalue=0.025947468049282555)
+T-Paired test with DKN / 0R = Ttest_relResult(statistic=79.57287305332021, pvalue=1.666230350450962e-35)
+Wilcoxon test with DKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.5932207142442858e-06)
+T-Paired test with DKN / RND = Ttest_relResult(statistic=34.51447043937651, pvalue=4.199043842740227e-25)
+Wilcoxon test with DKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.711606992411454e-06)
+T-Paired test with DKN / STR = Ttest_relResult(statistic=35.404042622374924, pvalue=2.0410051495771918e-25)
+Wilcoxon test with DKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.678421145178411e-06)
+T-Paired test with DKN / NBA = Ttest_relResult(statistic=4.664827034810739, pvalue=6.433844985717435e-05)
+Wilcoxon test with DKN / NBA = WilcoxonResult(statistic=26.0, pvalue=0.00023327004869452893)
+T-Paired test with DKN / 1R = Ttest_relResult(statistic=23.32536760825555, pvalue=2.4448922056368947e-20)
+Wilcoxon test with DKN / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7202594665136766e-06)
+T-Paired test with DKN / UKN = Ttest_relResult(statistic=0.46402031885295286, pvalue=0.6460976492077933)
+Wilcoxon test with DKN / UKN = WilcoxonResult(statistic=133.5, pvalue=0.6355006167665084)
+T-Paired test with DKN / DTR = Ttest_relResult(statistic=7.001305008430868, pvalue=1.0663322893241045e-07)
+Wilcoxon test with DKN / DTR = WilcoxonResult(statistic=0.0, pvalue=1.1403689743179285e-05)
+T-Paired test with DKN / DFR = Ttest_relResult(statistic=0.8360349910471707, pvalue=0.4099711469087317)
+Wilcoxon test with DKN / DFR = WilcoxonResult(statistic=92.5, pvalue=0.26039122550295246)
+T-Paired test with DKN / KMC = Ttest_relResult(statistic=2.035137418360267, pvalue=0.05106777439740058)
+Wilcoxon test with DKN / KMC = WilcoxonResult(statistic=95.5, pvalue=0.07052864361804966)
+T-Paired test with DKN / GAC = Ttest_relResult(statistic=2.538195283693948, pvalue=0.016772221114575575)
+Wilcoxon test with DKN / GAC = WilcoxonResult(statistic=86.0, pvalue=0.022125545452165246)
+T-Paired test with DTR / 0R = Ttest_relResult(statistic=40.64125745741574, pvalue=4.033207363915277e-27)
+Wilcoxon test with DTR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6405589938543058e-06)
+T-Paired test with DTR / RND = Ttest_relResult(statistic=31.497922622169874, pvalue=5.571967312937196e-24)
+Wilcoxon test with DTR / RND = WilcoxonResult(statistic=0.0, pvalue=1.711606992411454e-06)
+T-Paired test with DTR / STR = Ttest_relResult(statistic=27.510908772159432, pvalue=2.4944376921991494e-22)
+Wilcoxon test with DTR / STR = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with DTR / NBA = Ttest_relResult(statistic=-1.258977144534122, pvalue=0.2180788891205653)
+Wilcoxon test with DTR / NBA = WilcoxonResult(statistic=121.0, pvalue=0.1630928011046947)
+T-Paired test with DTR / 1R = Ttest_relResult(statistic=18.977112598556275, pvalue=6.777644240803033e-18)
+Wilcoxon test with DTR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7062176754796548e-06)
+T-Paired test with DTR / UKN = Ttest_relResult(statistic=-5.325952701106519, pvalue=1.02535203307802e-05)
+Wilcoxon test with DTR / UKN = WilcoxonResult(statistic=27.0, pvalue=5.910128750064687e-05)
+T-Paired test with DTR / DKN = Ttest_relResult(statistic=-7.001305008430868, pvalue=1.0663322893241045e-07)
+Wilcoxon test with DTR / DKN = WilcoxonResult(statistic=0.0, pvalue=1.1403689743179285e-05)
+T-Paired test with DTR / DFR = Ttest_relResult(statistic=-4.453794055385801, pvalue=0.00011535612365207976)
+Wilcoxon test with DTR / DFR = WilcoxonResult(statistic=23.0, pvalue=0.000278911395453719)
+T-Paired test with DTR / KMC = Ttest_relResult(statistic=-3.226167074357197, pvalue=0.0031035890448617206)
+Wilcoxon test with DTR / KMC = WilcoxonResult(statistic=74.0, pvalue=0.005656250484574542)
+T-Paired test with DTR / GAC = Ttest_relResult(statistic=-3.7508727595744795, pvalue=0.0007833672879237289)
+Wilcoxon test with DTR / GAC = WilcoxonResult(statistic=58.5, pvalue=0.0009557636622961253)
+T-Paired test with DFR / 0R = Ttest_relResult(statistic=58.16665664336199, pvalue=1.3938211585486593e-31)
+Wilcoxon test with DFR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6699448692230351e-06)
+T-Paired test with DFR / RND = Ttest_relResult(statistic=33.069306024312034, pvalue=1.409081788290315e-24)
+Wilcoxon test with DFR / RND = WilcoxonResult(statistic=0.0, pvalue=1.7191759138770554e-06)
+T-Paired test with DFR / STR = Ttest_relResult(statistic=36.79987843873508, pvalue=6.809209921650588e-26)
+Wilcoxon test with DFR / STR = WilcoxonResult(statistic=0.0, pvalue=1.6657201609790694e-06)
+T-Paired test with DFR / NBA = Ttest_relResult(statistic=5.050569033338187, pvalue=2.203977806631015e-05)
+Wilcoxon test with DFR / NBA = WilcoxonResult(statistic=17.5, pvalue=0.00023330215734741275)
+T-Paired test with DFR / 1R = Ttest_relResult(statistic=25.42688175742795, pvalue=2.2431465040894122e-21)
+Wilcoxon test with DFR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with DFR / UKN = Ttest_relResult(statistic=-0.3802429054645527, pvalue=0.7065359698676883)
+Wilcoxon test with DFR / UKN = WilcoxonResult(statistic=158.5, pvalue=0.6638945425649689)
+T-Paired test with DFR / DKN = Ttest_relResult(statistic=-0.8360349910471707, pvalue=0.4099711469087317)
+Wilcoxon test with DFR / DKN = WilcoxonResult(statistic=92.5, pvalue=0.26039122550295246)
+T-Paired test with DFR / DTR = Ttest_relResult(statistic=4.453794055385801, pvalue=0.00011535612365207976)
+Wilcoxon test with DFR / DTR = WilcoxonResult(statistic=23.0, pvalue=0.000278911395453719)
+T-Paired test with DFR / KMC = Ttest_relResult(statistic=0.9422036467581635, pvalue=0.35387177465294684)
+Wilcoxon test with DFR / KMC = WilcoxonResult(statistic=145.5, pvalue=0.44430930040533057)
+T-Paired test with DFR / GAC = Ttest_relResult(statistic=1.8991939898662096, pvalue=0.0675275690883368)
+Wilcoxon test with DFR / GAC = WilcoxonResult(statistic=94.5, pvalue=0.06545585052689742)
+T-Paired test with KMC / 0R = Ttest_relResult(statistic=64.28788080436927, pvalue=7.823702533733404e-33)
+Wilcoxon test with KMC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.5029324681011077e-06)
+T-Paired test with KMC / RND = Ttest_relResult(statistic=31.007358213860872, pvalue=8.67337726203183e-24)
+Wilcoxon test with KMC / RND = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with KMC / STR = Ttest_relResult(statistic=34.24750038959308, pvalue=5.23216740847981e-25)
+Wilcoxon test with KMC / STR = WilcoxonResult(statistic=0.0, pvalue=1.7062176754796548e-06)
+T-Paired test with KMC / NBA = Ttest_relResult(statistic=2.480888323470164, pvalue=0.01915123760270048)
+Wilcoxon test with KMC / NBA = WilcoxonResult(statistic=96.5, pvalue=0.025283161368514162)
+T-Paired test with KMC / 1R = Ttest_relResult(statistic=21.766675772217567, pvalue=1.6358081735438933e-19)
+Wilcoxon test with KMC / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with KMC / UKN = Ttest_relResult(statistic=-1.5234720414544962, pvalue=0.13847233758537647)
+Wilcoxon test with KMC / UKN = WilcoxonResult(statistic=98.0, pvalue=0.13568706590307306)
+T-Paired test with KMC / DKN = Ttest_relResult(statistic=-2.035137418360267, pvalue=0.05106777439740058)
+Wilcoxon test with KMC / DKN = WilcoxonResult(statistic=95.5, pvalue=0.07052864361804966)
+T-Paired test with KMC / DTR = Ttest_relResult(statistic=3.226167074357197, pvalue=0.0031035890448617206)
+Wilcoxon test with KMC / DTR = WilcoxonResult(statistic=74.0, pvalue=0.005656250484574542)
+T-Paired test with KMC / DFR = Ttest_relResult(statistic=-0.9422036467581635, pvalue=0.35387177465294684)
+Wilcoxon test with KMC / DFR = WilcoxonResult(statistic=145.5, pvalue=0.44430930040533057)
+T-Paired test with KMC / GAC = Ttest_relResult(statistic=0.3943849235007123, pvalue=0.6961823063917764)
+Wilcoxon test with KMC / GAC = WilcoxonResult(statistic=154.5, pvalue=0.5929501536539875)
+T-Paired test with GAC / 0R = Ttest_relResult(statistic=64.18681783407723, pvalue=8.186404045535097e-33)
+Wilcoxon test with GAC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6384766464748476e-06)
+T-Paired test with GAC / RND = Ttest_relResult(statistic=32.41670914851465, pvalue=2.4749434697220947e-24)
+Wilcoxon test with GAC / RND = WilcoxonResult(statistic=0.0, pvalue=1.712686559944352e-06)
+T-Paired test with GAC / STR = Ttest_relResult(statistic=39.57956252811805, pvalue=8.576782248105623e-27)
+Wilcoxon test with GAC / STR = WilcoxonResult(statistic=0.0, pvalue=1.6912029309011076e-06)
+T-Paired test with GAC / NBA = Ttest_relResult(statistic=2.888297368062709, pvalue=0.007252197273894508)
+Wilcoxon test with GAC / NBA = WilcoxonResult(statistic=96.0, pvalue=0.014114161065566847)
+T-Paired test with GAC / 1R = Ttest_relResult(statistic=24.605691595909214, pvalue=5.5795126926041495e-21)
+Wilcoxon test with GAC / 1R = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with GAC / UKN = Ttest_relResult(statistic=-2.1253985400755253, pvalue=0.042195354509156194)
+Wilcoxon test with GAC / UKN = WilcoxonResult(statistic=65.0, pvalue=0.025947468049282555)
+T-Paired test with GAC / DKN = Ttest_relResult(statistic=-2.538195283693948, pvalue=0.016772221114575575)
+Wilcoxon test with GAC / DKN = WilcoxonResult(statistic=86.0, pvalue=0.022125545452165246)
+T-Paired test with GAC / DTR = Ttest_relResult(statistic=3.7508727595744795, pvalue=0.0007833672879237289)
+Wilcoxon test with GAC / DTR = WilcoxonResult(statistic=58.5, pvalue=0.0009557636622961253)
+T-Paired test with GAC / DFR = Ttest_relResult(statistic=-1.8991939898662096, pvalue=0.0675275690883368)
+Wilcoxon test with GAC / DFR = WilcoxonResult(statistic=94.5, pvalue=0.06545585052689742)
+T-Paired test with GAC / KMC = Ttest_relResult(statistic=-0.3943849235007123, pvalue=0.6961823063917764)
+Wilcoxon test with GAC / KMC = WilcoxonResult(statistic=154.5, pvalue=0.5929501536539875)
+
+Paired test in the Digits dataset:
+
+T-Paired test with 0R / RND = Ttest_relResult(statistic=3.4030126181159632, pvalue=0.0019650176724127213)
+Wilcoxon test with 0R / RND = WilcoxonResult(statistic=51.0, pvalue=0.0026807210414239585)
+T-Paired test with 0R / STR = Ttest_relResult(statistic=0.33986043628973933, pvalue=0.7364109430810768)
+Wilcoxon test with 0R / STR = WilcoxonResult(statistic=185.0, pvalue=0.4820169340247038)
+T-Paired test with 0R / NBA = Ttest_relResult(statistic=-141.66817881441176, pvalue=9.463950343899353e-43)
+Wilcoxon test with 0R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with 0R / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 0R / 1R = WilcoxonResult(statistic=142.5, pvalue=0.10454425884901171)
+T-Paired test with 0R / UKN = Ttest_relResult(statistic=-459.71347832179475, pvalue=1.441460648264225e-57)
+Wilcoxon test with 0R / UKN = WilcoxonResult(statistic=0.0, pvalue=1.6625574931259496e-06)
+T-Paired test with 0R / DKN = Ttest_relResult(statistic=-496.8535817974385, pvalue=1.5150559506207988e-58)
+Wilcoxon test with 0R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.6731192718520786e-06)
+T-Paired test with 0R / DTR = Ttest_relResult(statistic=-174.98080929696684, pvalue=2.085822467415115e-45)
+Wilcoxon test with 0R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with 0R / DFR = Ttest_relResult(statistic=-390.05518695927793, pvalue=1.690252916791213e-55)
+Wilcoxon test with 0R / DFR = WilcoxonResult(statistic=0.0, pvalue=1.6752383396794872e-06)
+T-Paired test with 0R / KMC = Ttest_relResult(statistic=-322.87625157799334, pvalue=4.0553360465279145e-53)
+Wilcoxon test with 0R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.705141514598868e-06)
+T-Paired test with 0R / GAC = Ttest_relResult(statistic=-305.780563119367, pvalue=1.9633269002339668e-52)
+Wilcoxon test with 0R / GAC = WilcoxonResult(statistic=0.0, pvalue=1.6879998873377655e-06)
+T-Paired test with RND / 0R = Ttest_relResult(statistic=-3.4030126181159632, pvalue=0.0019650176724127213)
+Wilcoxon test with RND / 0R = WilcoxonResult(statistic=51.0, pvalue=0.0026807210414239585)
+T-Paired test with RND / STR = Ttest_relResult(statistic=-1.9224987813844192, pvalue=0.0644149825574537)
+Wilcoxon test with RND / STR = WilcoxonResult(statistic=148.0, pvalue=0.08208500945611541)
+T-Paired test with RND / NBA = Ttest_relResult(statistic=-109.4101216169453, pvalue=1.676314352811937e-39)
+Wilcoxon test with RND / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7235135468062213e-06)
+T-Paired test with RND / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with RND / 1R = WilcoxonResult(statistic=46.5, pvalue=0.0002168429599999689)
+T-Paired test with RND / UKN = Ttest_relResult(statistic=-185.94172750927672, pvalue=3.586992085040578e-46)
+Wilcoxon test with RND / UKN = WilcoxonResult(statistic=0.0, pvalue=1.7180929312456739e-06)
+T-Paired test with RND / DKN = Ttest_relResult(statistic=-205.58218905809503, pvalue=1.9543827565028e-47)
+Wilcoxon test with RND / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7159286750586906e-06)
+T-Paired test with RND / DTR = Ttest_relResult(statistic=-124.51480694348412, pvalue=3.971654534452888e-41)
+Wilcoxon test with RND / DTR = WilcoxonResult(statistic=0.0, pvalue=1.726772765612998e-06)
+T-Paired test with RND / DFR = Ttest_relResult(statistic=-185.4073312614662, pvalue=3.8989686047381994e-46)
+Wilcoxon test with RND / DFR = WilcoxonResult(statistic=0.0, pvalue=1.7224282827430733e-06)
+T-Paired test with RND / KMC = Ttest_relResult(statistic=-188.43530196466793, pvalue=2.438304325742761e-46)
+Wilcoxon test with RND / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with RND / GAC = Ttest_relResult(statistic=-174.45961786242245, pvalue=2.2741151438051823e-45)
+Wilcoxon test with RND / GAC = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with STR / 0R = Ttest_relResult(statistic=-0.33986043628973933, pvalue=0.7364109430810768)
+Wilcoxon test with STR / 0R = WilcoxonResult(statistic=185.0, pvalue=0.4820169340247038)
+T-Paired test with STR / RND = Ttest_relResult(statistic=1.9224987813844192, pvalue=0.0644149825574537)
+Wilcoxon test with STR / RND = WilcoxonResult(statistic=148.0, pvalue=0.08208500945611541)
+T-Paired test with STR / NBA = Ttest_relResult(statistic=-105.52350717538249, pvalue=4.77299404641571e-39)
+Wilcoxon test with STR / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with STR / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with STR / 1R = WilcoxonResult(statistic=114.5, pvalue=0.12122518166466469)
+T-Paired test with STR / UKN = Ttest_relResult(statistic=-187.39784819137668, pvalue=2.8613110403173956e-46)
+Wilcoxon test with STR / UKN = WilcoxonResult(statistic=0.0, pvalue=1.7224282827430733e-06)
+T-Paired test with STR / DKN = Ttest_relResult(statistic=-204.05280115081896, pvalue=2.426563044204203e-47)
+Wilcoxon test with STR / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7278603148724103e-06)
+T-Paired test with STR / DTR = Ttest_relResult(statistic=-152.63193968886182, pvalue=1.0926225946261655e-43)
+Wilcoxon test with STR / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7180929312456739e-06)
+T-Paired test with STR / DFR = Ttest_relResult(statistic=-170.65143910343477, pvalue=4.3103700106436917e-45)
+Wilcoxon test with STR / DFR = WilcoxonResult(statistic=0.0, pvalue=1.7300371292901245e-06)
+T-Paired test with STR / KMC = Ttest_relResult(statistic=-169.63925565342004, pvalue=5.121135872147843e-45)
+Wilcoxon test with STR / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with STR / GAC = Ttest_relResult(statistic=-167.93245507375087, pvalue=6.86437287649916e-45)
+Wilcoxon test with STR / GAC = WilcoxonResult(statistic=0.0, pvalue=1.7311263949197288e-06)
+T-Paired test with NBA / 0R = Ttest_relResult(statistic=141.66817881441176, pvalue=9.463950343899353e-43)
+Wilcoxon test with NBA / 0R = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with NBA / RND = Ttest_relResult(statistic=109.4101216169453, pvalue=1.676314352811937e-39)
+Wilcoxon test with NBA / RND = WilcoxonResult(statistic=0.0, pvalue=1.7235135468062213e-06)
+T-Paired test with NBA / STR = Ttest_relResult(statistic=105.52350717538249, pvalue=4.77299404641571e-39)
+Wilcoxon test with NBA / STR = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with NBA / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with NBA / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with NBA / UKN = Ttest_relResult(statistic=-37.1623159656557, pvalue=5.153972530672051e-26)
+Wilcoxon test with NBA / UKN = WilcoxonResult(statistic=0.0, pvalue=1.7213435893906393e-06)
+T-Paired test with NBA / DKN = Ttest_relResult(statistic=-41.14551753805353, pvalue=2.8373073197834717e-27)
+Wilcoxon test with NBA / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with NBA / DTR = Ttest_relResult(statistic=-11.690086969182943, pvalue=1.706260477723496e-12)
+Wilcoxon test with NBA / DTR = WilcoxonResult(statistic=1.0, pvalue=1.9053914697663718e-06)
+T-Paired test with NBA / DFR = Ttest_relResult(statistic=-33.43286367590331, pvalue=1.0342754828110234e-24)
+Wilcoxon test with NBA / DFR = WilcoxonResult(statistic=0.0, pvalue=1.7289484360195754e-06)
+T-Paired test with NBA / KMC = Ttest_relResult(statistic=-30.593866281466152, pvalue=1.2659476108441954e-23)
+Wilcoxon test with NBA / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with NBA / GAC = Ttest_relResult(statistic=-28.737575728406064, pvalue=7.35159583130837e-23)
+Wilcoxon test with NBA / GAC = WilcoxonResult(statistic=0.0, pvalue=1.7029908934686465e-06)
+T-Paired test with 1R / 0R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / 0R = WilcoxonResult(statistic=142.5, pvalue=0.10454425884901171)
+T-Paired test with 1R / RND = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / RND = WilcoxonResult(statistic=46.5, pvalue=0.0002168429599999689)
+T-Paired test with 1R / STR = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / STR = WilcoxonResult(statistic=114.5, pvalue=0.12122518166466469)
+T-Paired test with 1R / NBA = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with 1R / UKN = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / UKN = WilcoxonResult(statistic=0.0, pvalue=1.7105279932400777e-06)
+T-Paired test with 1R / DKN = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7278603148724103e-06)
+T-Paired test with 1R / DTR = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7300371292901245e-06)
+T-Paired test with 1R / DFR = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / DFR = WilcoxonResult(statistic=0.0, pvalue=1.7213435893906393e-06)
+T-Paired test with 1R / KMC = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with 1R / GAC = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with 1R / GAC = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with UKN / 0R = Ttest_relResult(statistic=459.71347832179475, pvalue=1.441460648264225e-57)
+Wilcoxon test with UKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6625574931259496e-06)
+T-Paired test with UKN / RND = Ttest_relResult(statistic=185.94172750927672, pvalue=3.586992085040578e-46)
+Wilcoxon test with UKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.7180929312456739e-06)
+T-Paired test with UKN / STR = Ttest_relResult(statistic=187.39784819137668, pvalue=2.8613110403173956e-46)
+Wilcoxon test with UKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.7224282827430733e-06)
+T-Paired test with UKN / NBA = Ttest_relResult(statistic=37.1623159656557, pvalue=5.153972530672051e-26)
+Wilcoxon test with UKN / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7213435893906393e-06)
+T-Paired test with UKN / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with UKN / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7105279932400777e-06)
+T-Paired test with UKN / DKN = Ttest_relResult(statistic=-1.1100477409077751, pvalue=0.27609840597681923)
+Wilcoxon test with UKN / DKN = WilcoxonResult(statistic=106.5, pvalue=0.3374956644816669)
+T-Paired test with UKN / DTR = Ttest_relResult(statistic=25.277674827455286, pvalue=2.6417028555262636e-21)
+Wilcoxon test with UKN / DTR = WilcoxonResult(statistic=0.0, pvalue=1.712686559944352e-06)
+T-Paired test with UKN / DFR = Ttest_relResult(statistic=-0.8284159530748638, pvalue=0.41420117715407834)
+Wilcoxon test with UKN / DFR = WilcoxonResult(statistic=144.5, pvalue=0.4303772372137268)
+T-Paired test with UKN / KMC = Ttest_relResult(statistic=8.549436739357569, pvalue=2.0346689514082548e-09)
+Wilcoxon test with UKN / KMC = WilcoxonResult(statistic=12.0, pvalue=5.657513732755253e-06)
+T-Paired test with UKN / GAC = Ttest_relResult(statistic=6.817018561228425, pvalue=1.7411130416092616e-07)
+Wilcoxon test with UKN / GAC = WilcoxonResult(statistic=1.5, pvalue=1.4552907107655059e-05)
+T-Paired test with DKN / 0R = Ttest_relResult(statistic=496.8535817974385, pvalue=1.5150559506207988e-58)
+Wilcoxon test with DKN / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6731192718520786e-06)
+T-Paired test with DKN / RND = Ttest_relResult(statistic=205.58218905809503, pvalue=1.9543827565028e-47)
+Wilcoxon test with DKN / RND = WilcoxonResult(statistic=0.0, pvalue=1.7159286750586906e-06)
+T-Paired test with DKN / STR = Ttest_relResult(statistic=204.05280115081896, pvalue=2.426563044204203e-47)
+Wilcoxon test with DKN / STR = WilcoxonResult(statistic=0.0, pvalue=1.7278603148724103e-06)
+T-Paired test with DKN / NBA = Ttest_relResult(statistic=41.14551753805353, pvalue=2.8373073197834717e-27)
+Wilcoxon test with DKN / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with DKN / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with DKN / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7278603148724103e-06)
+T-Paired test with DKN / UKN = Ttest_relResult(statistic=1.1100477409077751, pvalue=0.27609840597681923)
+Wilcoxon test with DKN / UKN = WilcoxonResult(statistic=106.5, pvalue=0.3374956644816669)
+T-Paired test with DKN / DTR = Ttest_relResult(statistic=25.12086017021101, pvalue=3.140124725107057e-21)
+Wilcoxon test with DKN / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with DKN / DFR = Ttest_relResult(statistic=0.1183912062166266, pvalue=0.9065739549012808)
+Wilcoxon test with DKN / DFR = WilcoxonResult(statistic=178.0, pvalue=0.7913325684090979)
+T-Paired test with DKN / KMC = Ttest_relResult(statistic=10.368495100969835, pvalue=2.8856053844974195e-11)
+Wilcoxon test with DKN / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7235135468062213e-06)
+T-Paired test with DKN / GAC = Ttest_relResult(statistic=7.755056424935806, pvalue=1.49478556689383e-08)
+Wilcoxon test with DKN / GAC = WilcoxonResult(statistic=0.0, pvalue=5.51095154726215e-06)
+T-Paired test with DTR / 0R = Ttest_relResult(statistic=174.98080929696684, pvalue=2.085822467415115e-45)
+Wilcoxon test with DTR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.714847401033251e-06)
+T-Paired test with DTR / RND = Ttest_relResult(statistic=124.51480694348412, pvalue=3.971654534452888e-41)
+Wilcoxon test with DTR / RND = WilcoxonResult(statistic=0.0, pvalue=1.726772765612998e-06)
+T-Paired test with DTR / STR = Ttest_relResult(statistic=152.63193968886182, pvalue=1.0926225946261655e-43)
+Wilcoxon test with DTR / STR = WilcoxonResult(statistic=0.0, pvalue=1.7180929312456739e-06)
+T-Paired test with DTR / NBA = Ttest_relResult(statistic=11.690086969182943, pvalue=1.706260477723496e-12)
+Wilcoxon test with DTR / NBA = WilcoxonResult(statistic=1.0, pvalue=1.9053914697663718e-06)
+T-Paired test with DTR / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with DTR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7300371292901245e-06)
+T-Paired test with DTR / UKN = Ttest_relResult(statistic=-25.277674827455286, pvalue=2.6417028555262636e-21)
+Wilcoxon test with DTR / UKN = WilcoxonResult(statistic=0.0, pvalue=1.712686559944352e-06)
+T-Paired test with DTR / DKN = Ttest_relResult(statistic=-25.12086017021101, pvalue=3.140124725107057e-21)
+Wilcoxon test with DTR / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with DTR / DFR = Ttest_relResult(statistic=-27.45565372283923, pvalue=2.6386868267108935e-22)
+Wilcoxon test with DTR / DFR = WilcoxonResult(statistic=0.0, pvalue=1.7180929312456739e-06)
+T-Paired test with DTR / KMC = Ttest_relResult(statistic=-18.808384990711716, pvalue=8.617437314353702e-18)
+Wilcoxon test with DTR / KMC = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with DTR / GAC = Ttest_relResult(statistic=-18.107272479444823, pvalue=2.384996317072924e-17)
+Wilcoxon test with DTR / GAC = WilcoxonResult(statistic=0.0, pvalue=1.7289484360195754e-06)
+T-Paired test with DFR / 0R = Ttest_relResult(statistic=390.05518695927793, pvalue=1.690252916791213e-55)
+Wilcoxon test with DFR / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6752383396794872e-06)
+T-Paired test with DFR / RND = Ttest_relResult(statistic=185.4073312614662, pvalue=3.8989686047381994e-46)
+Wilcoxon test with DFR / RND = WilcoxonResult(statistic=0.0, pvalue=1.7224282827430733e-06)
+T-Paired test with DFR / STR = Ttest_relResult(statistic=170.65143910343477, pvalue=4.3103700106436917e-45)
+Wilcoxon test with DFR / STR = WilcoxonResult(statistic=0.0, pvalue=1.7300371292901245e-06)
+T-Paired test with DFR / NBA = Ttest_relResult(statistic=33.43286367590331, pvalue=1.0342754828110234e-24)
+Wilcoxon test with DFR / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7289484360195754e-06)
+T-Paired test with DFR / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with DFR / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7213435893906393e-06)
+T-Paired test with DFR / UKN = Ttest_relResult(statistic=0.8284159530748638, pvalue=0.41420117715407834)
+Wilcoxon test with DFR / UKN = WilcoxonResult(statistic=144.5, pvalue=0.4303772372137268)
+T-Paired test with DFR / DKN = Ttest_relResult(statistic=-0.1183912062166266, pvalue=0.9065739549012808)
+Wilcoxon test with DFR / DKN = WilcoxonResult(statistic=178.0, pvalue=0.7913325684090979)
+T-Paired test with DFR / DTR = Ttest_relResult(statistic=27.45565372283923, pvalue=2.6386868267108935e-22)
+Wilcoxon test with DFR / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7180929312456739e-06)
+T-Paired test with DFR / KMC = Ttest_relResult(statistic=7.489424321018266, pvalue=2.9643819575657973e-08)
+Wilcoxon test with DFR / KMC = WilcoxonResult(statistic=13.5, pvalue=1.0191602119819708e-05)
+T-Paired test with DFR / GAC = Ttest_relResult(statistic=7.02734583526569, pvalue=9.952523598814913e-08)
+Wilcoxon test with DFR / GAC = WilcoxonResult(statistic=1.5, pvalue=9.790719460811923e-06)
+T-Paired test with KMC / 0R = Ttest_relResult(statistic=322.87625157799334, pvalue=4.0553360465279145e-53)
+Wilcoxon test with KMC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.705141514598868e-06)
+T-Paired test with KMC / RND = Ttest_relResult(statistic=188.43530196466793, pvalue=2.438304325742761e-46)
+Wilcoxon test with KMC / RND = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with KMC / STR = Ttest_relResult(statistic=169.63925565342004, pvalue=5.121135872147843e-45)
+Wilcoxon test with KMC / STR = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with KMC / NBA = Ttest_relResult(statistic=30.593866281466152, pvalue=1.2659476108441954e-23)
+Wilcoxon test with KMC / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with KMC / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with KMC / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with KMC / UKN = Ttest_relResult(statistic=-8.549436739357569, pvalue=2.0346689514082548e-09)
+Wilcoxon test with KMC / UKN = WilcoxonResult(statistic=12.0, pvalue=5.657513732755253e-06)
+T-Paired test with KMC / DKN = Ttest_relResult(statistic=-10.368495100969835, pvalue=2.8856053844974195e-11)
+Wilcoxon test with KMC / DKN = WilcoxonResult(statistic=0.0, pvalue=1.7235135468062213e-06)
+T-Paired test with KMC / DTR = Ttest_relResult(statistic=18.808384990711716, pvalue=8.617437314353702e-18)
+Wilcoxon test with KMC / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with KMC / DFR = Ttest_relResult(statistic=-7.489424321018266, pvalue=2.9643819575657973e-08)
+Wilcoxon test with KMC / DFR = WilcoxonResult(statistic=13.5, pvalue=1.0191602119819708e-05)
+T-Paired test with KMC / GAC = Ttest_relResult(statistic=-0.8696925415464359, pvalue=0.39161015694730616)
+Wilcoxon test with KMC / GAC = WilcoxonResult(statistic=156.0, pvalue=0.4274794126346817)
+T-Paired test with GAC / 0R = Ttest_relResult(statistic=305.780563119367, pvalue=1.9633269002339668e-52)
+Wilcoxon test with GAC / 0R = WilcoxonResult(statistic=0.0, pvalue=1.6879998873377655e-06)
+T-Paired test with GAC / RND = Ttest_relResult(statistic=174.45961786242245, pvalue=2.2741151438051823e-45)
+Wilcoxon test with GAC / RND = WilcoxonResult(statistic=0.0, pvalue=1.7170105183845441e-06)
+T-Paired test with GAC / STR = Ttest_relResult(statistic=167.93245507375087, pvalue=6.86437287649916e-45)
+Wilcoxon test with GAC / STR = WilcoxonResult(statistic=0.0, pvalue=1.7311263949197288e-06)
+T-Paired test with GAC / NBA = Ttest_relResult(statistic=28.737575728406064, pvalue=7.35159583130837e-23)
+Wilcoxon test with GAC / NBA = WilcoxonResult(statistic=0.0, pvalue=1.7029908934686465e-06)
+T-Paired test with GAC / 1R = Ttest_relResult(statistic=nan, pvalue=nan)
+Wilcoxon test with GAC / 1R = WilcoxonResult(statistic=0.0, pvalue=1.7256857880058036e-06)
+T-Paired test with GAC / UKN = Ttest_relResult(statistic=-6.817018561228425, pvalue=1.7411130416092616e-07)
+Wilcoxon test with GAC / UKN = WilcoxonResult(statistic=1.5, pvalue=1.4552907107655059e-05)
+T-Paired test with GAC / DKN = Ttest_relResult(statistic=-7.755056424935806, pvalue=1.49478556689383e-08)
+Wilcoxon test with GAC / DKN = WilcoxonResult(statistic=0.0, pvalue=5.51095154726215e-06)
+T-Paired test with GAC / DTR = Ttest_relResult(statistic=18.107272479444823, pvalue=2.384996317072924e-17)
+Wilcoxon test with GAC / DTR = WilcoxonResult(statistic=0.0, pvalue=1.7289484360195754e-06)
+T-Paired test with GAC / DFR = Ttest_relResult(statistic=-7.02734583526569, pvalue=9.952523598814913e-08)
+Wilcoxon test with GAC / DFR = WilcoxonResult(statistic=1.5, pvalue=9.790719460811923e-06)
+T-Paired test with GAC / KMC = Ttest_relResult(statistic=0.8696925415464359, pvalue=0.39161015694730616)
+Wilcoxon test with GAC / KMC = WilcoxonResult(statistic=156.0, pvalue=0.4274794126346817)
